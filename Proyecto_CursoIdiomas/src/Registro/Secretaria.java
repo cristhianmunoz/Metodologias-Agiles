@@ -2,7 +2,8 @@ package Registro;
 
 public class Secretaria extends Persona{
 
-    public Secretaria(){
+    public Secretaria(String nombre,String apellidos,int id){
+        super(nombre,apellidos,id);
 
     }
 

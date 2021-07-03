@@ -1,11 +1,14 @@
 package Registro;
 
-public abstract class Persona {
+public class Persona {
     private String nombre;
     private String apellidos;
     private int id;
 
-    public Persona(){
+    public Persona(String nombre,String apellidos,int id){
+        this.nombre=nombre;
+        this.apellidos=apellidos;
+        this.id=id;
 
     }
 
