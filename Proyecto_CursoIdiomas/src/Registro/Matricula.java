@@ -13,9 +13,16 @@ public class Matricula {
         generaCom.imprimirComprobante();
         generaCom.guardarComporbante();
     }
-    /*public void asignarCurso(){
-        Curso cuposDisponibles = new Curso("1", "Inglès", "Academico", 2021/08/03/7:00);
-        cuposDisponibles.verificarCupos();
+    public void asignarCurso(String id, String idioma, String nivel, Date horario) {
+        Curso cursos = new Curso(id, idioma, nivel, horario);
+
+        if(cursos.verificarCupos() == true){
+            //SE LE ASIGNA A UN ESTUDIANTE UN CURSO//
+            cursos.añadirListaEstudiante(estudiante);
+            generarComprobante();
+        }else{
+            System.out.println("Curso no Disponible");
+        }
         //Si hay cupos disponibles se genera el comprobante es decir si se matricula
-    }*/
+    }
 }

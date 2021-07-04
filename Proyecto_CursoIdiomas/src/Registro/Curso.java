@@ -1,5 +1,7 @@
 package Registro;
 
+import javax.swing.*;
+import java.io.*;
 import java.util.Date;
 
 public class Curso {
@@ -17,9 +19,9 @@ public class Curso {
         this.horario=horario;
     }
 
-    /*public void setProfesor(Profesor profesor) {
+    public void setProfesor(Profesor profesor) {
         this.profesor = profesor;
-    }*/
+    }
 
     public Profesor getProfesor() {
         return profesor;
@@ -40,16 +42,38 @@ public class Curso {
         return id;
     }
 
-    /*public void añadirListaEstudiante(Estudiante estudiante){
-        this.listaEstudiantes.agregar(estudiante);
-    }*/
-    public void asignarProfesor (Profesor profesor){
-        //Instanciar la Lista de Profesores
-
-
+    public void añadirListaEstudiante(Estudiante estudiante){
+        this.listaEstudiantes.agregarEstudiante(estudiante);
     }
-    public void verificarCupos(){
+    /*public void asignarProfesor (Profesor profesor){
+        //Instanciar la Lista de Profesores
+        ListaProfesores profesores = new ListaProfesores();
+    }*/
+    public boolean verificarCupos(){
 
+        Matricula generarMatriula = new Matricula();
+
+        String sCadena="";
+        long numeroEstudiantes = 0;
+
+        try{
+            FileReader fr = new FileReader("ListaEstudiantes.txt");
+            BufferedReader bf = new BufferedReader(fr);
+
+            while ((sCadena = bf.readLine())!=null) {
+                numeroEstudiantes++;
+            }
+
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+        if(numeroEstudiantes < 25){
+            System.out.println("Cupos Disponibles: "+numeroEstudiantes);
+            //generarMatriula.asignarCurso();
+            return true;
+        }else{
+            return false;
+        }
     }
 
     @Override

@@ -30,18 +30,18 @@ public class Comprobante {
         File datos_Comprobante = new File("Datos_Comprobante.txt");
         if(datos_Comprobante.exists()){
             try{
-                FileWriter escribir_datos_Comprobante = new FileWriter(datos_Comprobante,true);
-                FileReader leer_datos_comprobante = new FileReader(datos_Comprobante);
-                BufferedReader blr_datos = new BufferedReader(leer_datos_comprobante);
-                BufferedWriter bwr_datos = new BufferedWriter(escribir_datos_Comprobante);
+                FileWriter escribir_datos = new FileWriter(datos_Comprobante,true);
+                FileReader leer_datos = new FileReader(datos_Comprobante);
+                BufferedReader blr_datos = new BufferedReader(leer_datos);
+                BufferedWriter bwr_datos = new BufferedWriter(escribir_datos);
                 PrintWriter mostrarDatos = new PrintWriter(bwr_datos);
 
-                String lìnea = blr_datos.readLine();
+                String linea = blr_datos.readLine();
 
-                while(lìnea != null){
+                while(linea != null){
                     bwr_datos.append(linea+"\n");
                     bwr_datos.flush();
-                    lìnea = blr_datos.readLine();
+                    linea = blr_datos.readLine();
                 }
                 mostrarDatos.write(Comprobante);
                 bwr_datos.flush();
@@ -54,7 +54,15 @@ public class Comprobante {
             }
         }else{
             try{
+                datos_Comprobante.createNewFile();
+                FileWriter escribir_datos = new FileWriter(datos_Comprobante);
+                BufferedWriter bwr_datos = new BufferedWriter(escribir_datos);
+                PrintWriter mostrar_datos = new PrintWriter(bwr_datos);
 
+                mostrar_datos.println(imprimirComprobante());
+                bwr_datos.flush();
+            }catch(IOException e){
+                e.printStackTrace();
             }
         }
 
