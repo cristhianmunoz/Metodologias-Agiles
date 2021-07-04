@@ -17,9 +17,9 @@ public class Curso {
         this.horario=horario;
     }
 
-    public void setProfesor(Profesor profesor) {
+    /*public void setProfesor(Profesor profesor) {
         this.profesor = profesor;
-    }
+    }*/
 
     public Profesor getProfesor() {
         return profesor;
@@ -40,13 +40,25 @@ public class Curso {
         return id;
     }
 
-    public void añadirListaEstudiante(Estudiante estudiante){
+    /*public void añadirListaEstudiante(Estudiante estudiante){
         this.listaEstudiantes.agregar(estudiante);
-    }
+    }*/
     public void asignarProfesor (Profesor profesor){
 
+    }
+    public void verificarCupos(){
 
     }
 
-
+    @Override
+    public String toString() {
+        return "Curso{" +
+                "id='" + id + '\'' +
+                ", profesor=" + profesor +
+                ", idioma='" + idioma + '\'' +
+                ", nivel='" + nivel + '\'' +
+                ", horario=" + horario +
+                ", listaEstudiantes=" + listaEstudiantes +
+                '}';
+    }
 }

@@ -10,9 +10,9 @@ public class Main {
         System.out.println("Bienvenida al Sistema\n");
         System.out.println("Registrese Secretari@\n");
         System.out.println("Nombre: ");
-        try (Scanner scanner = new Scanner(System.in)) {
+        /*try (Scanner scanner = new Scanner(System.in)) {
             String nombre= scanner.nextLine();
-        }
+        }*/
 
         System.out.println("Bienvenida" );
 
