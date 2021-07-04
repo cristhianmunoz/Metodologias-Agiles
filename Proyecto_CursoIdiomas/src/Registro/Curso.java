@@ -44,6 +44,8 @@ public class Curso {
         this.listaEstudiantes.agregar(estudiante);
     }*/
     public void asignarProfesor (Profesor profesor){
+        //Instanciar la Lista de Profesores
+
 
     }
     public void verificarCupos(){

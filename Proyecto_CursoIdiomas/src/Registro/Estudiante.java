@@ -6,4 +6,11 @@ public class Estudiante  extends Persona{
         super(nombre,apellidos,id);
     }
 
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+    public String toSave(){
+        return getId()+";"+getNombre()+";"+getApellidos()+";";
+    }
 }
