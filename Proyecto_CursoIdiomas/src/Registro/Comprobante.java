@@ -1,8 +1,8 @@
 package Registro;
 
+import javax.swing.*;
+import java.io.*;
 import java.util.Date;
-import java.io.File;
-import java.io.FileWriter;
 
 public class Comprobante {
     private int idComprobante=6;
@@ -16,26 +16,48 @@ public class Comprobante {
     public String imprimirComprobante(){
         date = new Date();
         return "Comprobante No: "+ this.idComprobante+
-                "\nCliente: "+this.cliente+
-                "\nFecha de emisiòn: "+date+
-                "\nIdioma: "+this.idioma+
-                "\nNivel: "+this.nivel+
-                "\nCosto: "+calculoPago()+
-                "\nFecha de Pago: "+date;
+                "; Cliente: "+this.cliente+
+                "; Fecha de emisiòn: "+date+
+                "; Idioma: "+this.idioma+
+                "; Nivel: "+this.nivel+
+                "; Costo: "+calculoPago()+
+                "; Fecha de Pago: "+date;
     }
 
     public void guardarComporbante(){
         String Comprobante = imprimirComprobante();
-        try{
 
-            File datos_Comprobante = new File("Datos_Comprobante.txt");
-            FileWriter escribir_datos_Comprobante = new FileWriter(datos_Comprobante,true);
-            escribir_datos_Comprobante.write(Comprobante);
-            escribir_datos_Comprobante.close();
+        File datos_Comprobante = new File("Datos_Comprobante.txt");
+        if(datos_Comprobante.exists()){
+            try{
+                FileWriter escribir_datos_Comprobante = new FileWriter(datos_Comprobante,true);
+                FileReader leer_datos_comprobante = new FileReader(datos_Comprobante);
+                BufferedReader blr_datos = new BufferedReader(leer_datos_comprobante);
+                BufferedWriter bwr_datos = new BufferedWriter(escribir_datos_Comprobante);
+                PrintWriter mostrarDatos = new PrintWriter(bwr_datos);
 
-        } catch (Exception e) {
-            System.out.println("Error al escribir");
+                String lìnea = blr_datos.readLine();
+
+                while(lìnea != null){
+                    bwr_datos.append(linea+"\n");
+                    bwr_datos.flush();
+                    lìnea = blr_datos.readLine();
+                }
+                mostrarDatos.write(Comprobante);
+                bwr_datos.flush();
+                /*escribir_datos_Comprobante.write(Comprobante);
+                escribir_datos_Comprobante.close();*/
+
+            } catch (Exception e) {
+                JOptionPane.showMessageDialog(null, "Error inesperado");
+
+            }
+        }else{
+            try{
+
+            }
         }
+
     }
 
     public double calculoPago(){
