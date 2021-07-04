@@ -14,7 +14,7 @@ public class ListaEstudiantes {
 
         if(file.exists()){
             try {
-                FileWriter fw = new FileWriter(file);
+                FileWriter fw = new FileWriter(file,true);
                 FileReader fr= new FileReader(file);
                 BufferedReader br=new BufferedReader(fr);
                 BufferedWriter bw = new BufferedWriter(fw);
@@ -22,14 +22,9 @@ public class ListaEstudiantes {
 
                 String linea =br.readLine();
 
-                while (linea!=null){
-                    bw.append(linea+"\n");
-                    bw.flush();
-                    linea=br.readLine();
-                }
-
-                pw.write(this.estudiante.toSave());
+                pw.println(this.estudiante.toSave());
                 bw.flush();
+
 
             }catch (Exception e){
                 JOptionPane.showMessageDialog(null, "ha sucedido un error");
@@ -43,7 +38,7 @@ public class ListaEstudiantes {
                 BufferedWriter bw = new BufferedWriter(fw);
                 PrintWriter wr= new PrintWriter(bw);
 
-                wr.write(this.estudiante.toSave());
+                wr.println(this.estudiante.toSave());
                 bw.flush();
 
             } catch (IOException e) {

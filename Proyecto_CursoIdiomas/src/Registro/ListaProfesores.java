@@ -14,7 +14,7 @@ public class ListaProfesores {
 
         if(file.exists()){
             try {
-                FileWriter fw = new FileWriter(file);
+                FileWriter fw = new FileWriter(file,true);
                 FileReader fr= new FileReader(file);
                 BufferedReader br=new BufferedReader(fr);
                 BufferedWriter bw = new BufferedWriter(fw);
@@ -22,13 +22,7 @@ public class ListaProfesores {
 
                 String linea =br.readLine();
 
-                while (linea!=null){
-                    bw.append(linea+"\n");
-                    bw.flush();
-                    linea=br.readLine();
-                }
-
-                pw.write(this.profesor.toSave());
+                pw.println(this.profesor.toSave());
                 bw.flush();
 
             }catch (Exception e){
@@ -43,7 +37,7 @@ public class ListaProfesores {
                 BufferedWriter bw = new BufferedWriter(fw);
                 PrintWriter wr= new PrintWriter(bw);
 
-                wr.write(this.profesor.toSave());
+                wr.println(this.profesor.toSave());
                 bw.flush();
 
             } catch (IOException e) {

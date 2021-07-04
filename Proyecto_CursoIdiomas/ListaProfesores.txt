@@ -1,1 +1,2 @@
-101;Cristhian;Muñoz Aulestia;No disponible;
+100;Cristhian;Muñoz Aulestia;Disponible;
+101;Josue;Muñoz Aulestia;No disponible;

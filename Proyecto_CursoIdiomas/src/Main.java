@@ -20,7 +20,7 @@ public class Main {
         Estudiante alumno2= new Estudiante("David","Suarez Vanegas", 13);
 
         Profesor profesor= new Profesor("Cristhian","Muñoz Aulestia", 100);
-        Profesor profesor2= new Profesor("Cristhian","Muñoz Aulestia", 101);
+        Profesor profesor2= new Profesor("Josue","Muñoz Aulestia", 101);
         profesor2.setEstado("No disponible");
 
         ListaEstudiantes lista1= new ListaEstudiantes();
