@@ -4,47 +4,41 @@ import java.util.Scanner;
 
 public class Main {
     public static void main (String [] args){
-        //System.out.println("Hola mundo");
-        Persona secretaria = new Secretaria("Maria","Dolores",123);
 
-        System.out.println("==========  BIENVENIDA AL SISTEMA  ===========\n");
-
-        Estudiante alumno= new Estudiante("Cristhian","Muñoz Aulestia", 12);
-        Estudiante alumno2= new Estudiante("David","Suarez Vanegas", 13);
-        Estudiante alumno3= new Estudiante("Andrea","Cachipuendo Catucuamba", 14);
-
-        Profesor profesor= new Profesor("Cristhian","Muñoz Aulestia", 100);
-        Profesor profesor2= new Profesor("Josue","Muñoz Aulestia", 101);
-        profesor2.setEstado("No disponible");
-        Profesor profesor3= new Profesor("Ibeth","Lopez Fernandez", 102);
-        profesor3.setEstado("Disponible");
-
-        System.out.println("El estuadiante fue registrado con èxito en el sistema\n"+"Datos personales del alumno son:");
-        alumno.toString();
-        System.out.println("El profesor fue registrado con èxito en el sistema\n"+"Datos personales del profesor son:");
-        profesor3.toString();
-
-        ListaEstudiantes lista1= new ListaEstudiantes();
-        ListaProfesores lista2= new ListaProfesores();
-
-        lista1.agregarEstudiante(alumno);
-        lista1.agregarEstudiante(alumno2);
-        //lista1.agregarEstudiante(alumno3);
-
-        lista2.agregarProfesor(profesor);
-        lista2.agregarProfesor(profesor2);
-        lista2.agregarProfesor(profesor3);
-
+        //Se tiene creado los cursos que se van a ofertar
         Curso curso1 = new Curso("1", "Inglès","Academico 1","4pm-6pm");
         Curso curso2 = new Curso("2", "Frances","Academico 2","2pm-4pm");
 
-        System.out.println("El curso de idioma fue registrado con èxito en el sistema\n"+"Datos del Curso:");
-        System.out.println(curso1.toString());
+        //Un usuario Secretaria debe ser instanciado antes de la ejecución del programa
+        Secretaria secretaria = new Secretaria("Maria","Dolores",123);
 
+        System.out.println("==========  BIENVENIDA AL SISTEMA  ===========\n");
+
+        //se pueden pasar por parametros los datos de los Estudiantes
+        Estudiante estudiante[]=new Estudiante[3];
+        estudiante[0]= secretaria.inscribirEstudiante("Cristhian","Muñoz Aulestia", 12);
+        estudiante[1]=secretaria.inscribirEstudiante("David","Suarez Vanegas", 13);
+        estudiante[2]=secretaria.inscribirEstudiante("Andrea","Cachipuendo Catucuamba", 14);
+
+        //la secretaria verifica si existe disponibilidad de cupos
+        curso1.verificarCupos();
+        curso2.verificarCupos();
+
+        //Intento de matricular a un Estudiante
         System.out.println("MATRICULACIÒN DEL ESTUDIANTE\n");
+        for (Estudiante registrar:estudiante) {
+            if (curso1.verificarCupos()) {
+                Matricula matricula = new Matricula(estudiante[0], curso1);
+            }
+        }
 
-        Matricula matricula = new Matricula(alumno3);
-        matricula.asignarCurso(curso1);
+        //Se registran a los Profesores
+        Profesor profesor[]=new Profesor[2];
+        profesor[0]=secretaria.registrarProfesor("Josue","Muñoz Rodriguez", 101);
+        profesor[1]=secretaria.registrarProfesor("Ibeth","Lopez Fernandez", 102);
+
+        //La secretaria asigna un profesor a un curso
+        secretaria.asignarProfesorACurso(profesor[0].getNombre(), curso1);
 
 
     }

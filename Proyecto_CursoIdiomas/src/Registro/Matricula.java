@@ -8,8 +8,12 @@ public class Matricula {
     private Estudiante estudiante;
     private Curso cursoMatriculado;
 
-    public Matricula(Estudiante estudiante) {
+    public Matricula(Estudiante estudiante, Curso curso) {
         this.estudiante = estudiante;
+        if (asignarCurso(curso)){
+            System.out.println("Estudiante matriculado con èxito");
+        } else System.out.println("Curso no Disponible");
+
     }
 
     public void generarComprobante(){
@@ -17,20 +21,16 @@ public class Matricula {
         generaCom.imprimirComprobante();
         generaCom.guardarComporbante();
     }
-    public void asignarCurso(Curso curso) {
-        Curso cursos = curso;
+    public boolean asignarCurso(Curso curso) {
 
-        if(cursos.verificarCupos() == true){
-            //SE LE ASIGNA A UN ESTUDIANTE UN CURSO//
-            //cursos.añadirListaEstudiante(estudiante);
-            ListaEstudiantes nuevoEstudiante = new ListaEstudiantes();
-            nuevoEstudiante.agregarEstudiante(estudiante);
-            System.out.println("Estudiante matriculado con èxito");
+        if(curso.verificarCupos()){
+            curso.añadirListaEstudiante(estudiante);
             generarComprobante();
+            return true;
         }else{
-            System.out.println("Curso no Disponible");
+            return false;
         }
-        //Si hay cupos disponibles se genera el comprobante es decir si se matricula
+
     }
 
     public Curso getCursoMatriculado() {

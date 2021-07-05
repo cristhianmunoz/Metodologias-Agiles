@@ -4,18 +4,18 @@ import java.io.*;
 
 public class Profesor extends Persona{
 
-    private  String estado;
+    private  Boolean estado;
 
     public Profesor(String nombre,String apellidos,int id){
         super(nombre,apellidos,id);
-        this.estado="Disponible";
+        this.estado=true;
     }
 
-    public void setEstado(String estado) {
+    public void setEstado(Boolean estado) {
         this.estado = estado;
     }
 
-    public String getEstado() {
+    public Boolean getEstado() {
         return estado;
     }
 

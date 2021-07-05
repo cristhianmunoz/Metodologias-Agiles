@@ -10,7 +10,7 @@ public class Curso {
     private String idioma;
     private String nivel;
     private String horario;
-    private ListaEstudiantes listaEstudiantes;
+    private ListaEstudiantes listaEstudiantes=new ListaEstudiantes();
 
     public Curso(String id, String idioma, String nivel, String horario ) {
         this.id=id;
@@ -43,10 +43,7 @@ public class Curso {
     }
 
     public void añadirListaEstudiante(Estudiante estudiante){
-        ListaEstudiantes listaE = new ListaEstudiantes();
-        this.listaEstudiantes=listaE;
-        //listaE.agregarEstudiante(estudiante);
-        //this.estudiantes.agregarEstudiante(estudiante);
+        this.listaEstudiantes.agregarEstudiante(estudiante);
     }
 
     public void asignarProfesor (String profesor){

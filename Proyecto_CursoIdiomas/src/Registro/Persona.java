@@ -1,6 +1,6 @@
 package Registro;
 
-public class Persona {
+public abstract class Persona {
     private String nombre;
     private String apellidos;
     private int id;
@@ -36,5 +36,12 @@ public class Persona {
         return id;
     }
 
-
+    @Override
+    public String toString() {
+        return "Persona{" +
+                "nombre='" + nombre + '\'' +
+                ", apellidos='" + apellidos + '\'' +
+                ", id=" + id +
+                '}';
+    }
 }
