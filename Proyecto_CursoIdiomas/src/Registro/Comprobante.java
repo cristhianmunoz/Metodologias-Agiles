@@ -24,9 +24,14 @@ public class Comprobante {
                 "; Fecha de Pago: "+date;
 
     }
+    public String toSave(){
+
+        return this.idComprobante+";"+this.cliente+";"+date+";"+this.idioma+";"+this.nivel+";"+calculoPago()+";"+date;
+
+    }
 
     public void guardarComporbante(){
-        String Comprobante = imprimirComprobante();
+        String Comprobante = toSave();
 
         File datos_Comprobante = new File("Datos_Comprobante.txt");
         if(datos_Comprobante.exists()) {
@@ -44,7 +49,7 @@ public class Comprobante {
                     bwr_datos.flush();
                     linea = blr_datos.readLine();
                 }*/
-                mostrarDatos.println(imprimirComprobante());
+                mostrarDatos.println(toSave());
                 bwr_datos.flush();
                 //escribir_datos_Comprobante.write(Comprobante);
                 escribir_datos.close();
@@ -60,7 +65,7 @@ public class Comprobante {
                 BufferedWriter bwr_datos = new BufferedWriter(escribir_datos);
                 PrintWriter mostrar_datos = new PrintWriter(bwr_datos);
 
-                mostrar_datos.println(imprimirComprobante());
+                mostrar_datos.println(toSave());
                 bwr_datos.flush();
                 escribir_datos.close();
             }catch(IOException e){

@@ -39,12 +39,12 @@ public class Main {
         Curso curso2 = new Curso("2", "Frances","Academico 2","2pm-4pm");
 
         System.out.println("El curso de idioma fue registrado con èxito en el sistema\n"+"Datos del Curso:");
-        curso1.toString();
+        System.out.println(curso1.toString());
 
         System.out.println("MATRICULACIÒN DEL ESTUDIANTE\n");
 
         Matricula matricula = new Matricula(alumno3);
-        matricula.asignarCurso("1","Inglès","Academico 1","4pm-6pm");
+        matricula.asignarCurso(curso1);
 
 
     }

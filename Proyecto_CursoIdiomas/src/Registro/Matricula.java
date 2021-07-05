@@ -17,8 +17,8 @@ public class Matricula {
         generaCom.imprimirComprobante();
         generaCom.guardarComporbante();
     }
-    public void asignarCurso(String id, String idioma, String nivel, String horario) {
-        Curso cursos = new Curso(id, idioma, nivel, horario);
+    public void asignarCurso(Curso curso) {
+        Curso cursos = curso;
 
         if(cursos.verificarCupos() == true){
             //SE LE ASIGNA A UN ESTUDIANTE UN CURSO//
