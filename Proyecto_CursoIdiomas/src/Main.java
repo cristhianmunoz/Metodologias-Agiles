@@ -8,13 +8,6 @@ public class Main {
         Persona secretaria = new Secretaria("Maria","Dolores",123);
 
         System.out.println("==========  BIENVENIDA AL SISTEMA  ===========\n");
-        /*System.out.println("Registrese Secretari@\n");
-        System.out.println("Nombre: ");
-        /*try (Scanner scanner = new Scanner(System.in)) {
-            String nombre= scanner.nextLine();
-        }*/
-
-        //System.out.println("Bienvenida" );
 
         Estudiante alumno= new Estudiante("Cristhian","Muñoz Aulestia", 12);
         Estudiante alumno2= new Estudiante("David","Suarez Vanegas", 13);
@@ -26,6 +19,10 @@ public class Main {
         Profesor profesor3= new Profesor("Ibeth","Lopez Fernandez", 102);
         profesor3.setEstado("Disponible");
 
+        System.out.println("El estuadiante fue registrado con èxito en el sistema\n"+"Datos personales del alumno son:");
+        alumno.toString();
+        System.out.println("El profesor fue registrado con èxito en el sistema\n"+"Datos personales del profesor son:");
+        profesor3.toString();
 
         ListaEstudiantes lista1= new ListaEstudiantes();
         ListaProfesores lista2= new ListaProfesores();
@@ -40,6 +37,11 @@ public class Main {
 
         Curso curso1 = new Curso("1", "Inglès","Academico 1","4pm-6pm");
         Curso curso2 = new Curso("2", "Frances","Academico 2","2pm-4pm");
+
+        System.out.println("El curso de idioma fue registrado con èxito en el sistema\n"+"Datos del Curso:");
+        curso1.toString();
+
+        System.out.println("MATRICULACIÒN DEL ESTUDIANTE\n");
 
         Matricula matricula = new Matricula(alumno3);
         matricula.asignarCurso("1","Inglès","Academico 1","4pm-6pm");

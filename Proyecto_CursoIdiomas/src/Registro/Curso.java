@@ -109,5 +109,14 @@ public class Curso {
         }
     }
 
-
+    @Override
+    public String toString() {
+        return "Curso{" +
+                "id='" + id + '\'' +
+                ", profesor=" + profesor +
+                ", idioma='" + idioma + '\'' +
+                ", nivel='" + nivel + '\'' +
+                ", horario='" + horario + '\'' +
+                '}';
+    }
 }
