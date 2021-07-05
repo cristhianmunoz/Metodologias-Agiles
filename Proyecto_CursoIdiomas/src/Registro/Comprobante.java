@@ -22,13 +22,14 @@ public class Comprobante {
                 "; Nivel: "+this.nivel+
                 "; Costo: "+calculoPago()+
                 "; Fecha de Pago: "+date;
+
     }
 
     public void guardarComporbante(){
         String Comprobante = imprimirComprobante();
 
         File datos_Comprobante = new File("Datos_Comprobante.txt");
-        if(datos_Comprobante.exists()){
+        if(datos_Comprobante.exists()) {
             try{
                 FileWriter escribir_datos = new FileWriter(datos_Comprobante,true);
                 FileReader leer_datos = new FileReader(datos_Comprobante);
@@ -38,15 +39,15 @@ public class Comprobante {
 
                 String linea = blr_datos.readLine();
 
-                while(linea != null){
+                /*while(linea != null){
                     bwr_datos.append(linea+"\n");
                     bwr_datos.flush();
                     linea = blr_datos.readLine();
-                }
-                mostrarDatos.write(Comprobante);
+                }*/
+                mostrarDatos.println(imprimirComprobante());
                 bwr_datos.flush();
-                /*escribir_datos_Comprobante.write(Comprobante);
-                escribir_datos_Comprobante.close();*/
+                //escribir_datos_Comprobante.write(Comprobante);
+                escribir_datos.close();
 
             } catch (Exception e) {
                 JOptionPane.showMessageDialog(null, "Error inesperado");
@@ -61,10 +62,12 @@ public class Comprobante {
 
                 mostrar_datos.println(imprimirComprobante());
                 bwr_datos.flush();
+                escribir_datos.close();
             }catch(IOException e){
                 e.printStackTrace();
             }
         }
+
 
     }
 

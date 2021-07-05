@@ -9,10 +9,10 @@ public class Curso {
     private Profesor profesor;
     private String idioma;
     private String nivel;
-    private Date horario;
+    private String horario;
     private ListaEstudiantes listaEstudiantes;
 
-    public Curso(String id, String idioma, String nivel, Date horario ) {
+    public Curso(String id, String idioma, String nivel, String horario ) {
         this.id=id;
         this.idioma=idioma;
         this.nivel=nivel;
@@ -31,10 +31,10 @@ public class Curso {
         return idioma;
     }
 
-    public Date getHorario() {
+    public String getHorario() {
         return horario;
     }
-    public void setHorario(Date horario) {
+    public void setHorario(String horario) {
         this.horario = horario;
     }
 
@@ -43,18 +43,51 @@ public class Curso {
     }
 
     public void añadirListaEstudiante(Estudiante estudiante){
-        this.listaEstudiantes.agregarEstudiante(estudiante);
+        ListaEstudiantes listaE = new ListaEstudiantes();
+        this.listaEstudiantes=listaE;
+        //listaE.agregarEstudiante(estudiante);
+        //this.estudiantes.agregarEstudiante(estudiante);
     }
-    /*public void asignarProfesor (Profesor profesor){
+
+    public void asignarProfesor (String profesor){
         //Instanciar la Lista de Profesores
-        ListaProfesores profesores = new ListaProfesores();
-    }*/
+        //ListaProfesores profesores = new ListaProfesores();
+        String estado = "Disponible";
+        String sCadena = "";
+        int contador=0;
+        try {
+            FileReader fr = new FileReader("ListaProfesores.txt");
+            BufferedReader bf = new BufferedReader(fr);
+
+            while ((sCadena = bf.readLine()) != null) {
+                contador++;
+                if (this.profesor.getNombre().equalsIgnoreCase(profesor)) {
+                    if (sCadena.equalsIgnoreCase(estado)) {
+                        //Reescribe la lista con estado=ocupado
+
+                        //
+                        getProfesor().getNombre();
+                        //return this.profesor;
+                    } else {
+                        System.out.println("Profesor no disponible");
+                    }
+                }else{
+                    System.out.println("No existen registro del profesor");
+                }
+
+            }
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+        //return this.profesor;
+    }
+
     public boolean verificarCupos(){
 
-        Matricula generarMatriula = new Matricula();
-
+        //Matricula generarMatriula = new Matricula();
         String sCadena="";
-        long numeroEstudiantes = 0;
+        int cuposDisponibles = 0;
+        int numeroEstudiantes = 0;
 
         try{
             FileReader fr = new FileReader("ListaEstudiantes.txt");
@@ -68,23 +101,13 @@ public class Curso {
             e.printStackTrace();
         }
         if(numeroEstudiantes < 25){
-            System.out.println("Cupos Disponibles: "+numeroEstudiantes);
-            //generarMatriula.asignarCurso();
+            cuposDisponibles = 25-numeroEstudiantes;
+            System.out.println("Cupos Disponibles: "+cuposDisponibles);
             return true;
         }else{
             return false;
         }
     }
 
-    @Override
-    public String toString() {
-        return "Curso{" +
-                "id='" + id + '\'' +
-                ", profesor=" + profesor +
-                ", idioma='" + idioma + '\'' +
-                ", nivel='" + nivel + '\'' +
-                ", horario=" + horario +
-                ", listaEstudiantes=" + listaEstudiantes +
-                '}';
-    }
+
 }

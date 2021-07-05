@@ -26,7 +26,7 @@ public class ListaProfesores {
                 bw.flush();
 
             }catch (Exception e){
-                JOptionPane.showMessageDialog(null, "ha sucedido un error");
+                JOptionPane.showMessageDialog(null, "Ha sucedido un error en ListaEstudiantes");
 
             }
 
