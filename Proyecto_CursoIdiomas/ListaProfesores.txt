@@ -7,3 +7,6 @@
 100;Cristhian;Muñoz Aulestia;Disponible;
 101;Josue;Muñoz Aulestia;No disponible;
 102;Ibeth;Lopez Fernandez;Disponible;
+100;Cristhian;Muñoz Aulestia;Disponible;
+101;Josue;Muñoz Aulestia;No disponible;
+102;Ibeth;Lopez Fernandez;Disponible;
