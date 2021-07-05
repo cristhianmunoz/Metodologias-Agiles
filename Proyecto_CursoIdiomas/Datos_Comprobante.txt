@@ -1,12 +1,2 @@
 Comprobante No; Cliente; Fecha de emisiòn; Idioma; Nivel; Costo; Fecha de Pago
 6;Andrea;Sun Jul 04 22:01:14 COT 2021;Ingles;Academico;280.0;Sun Jul 04 22:01:14 COT 2021
-
-6;Andrea;Sun Jul 04 22:45:15 COT 2021;Ingles;Academico;280.0;Sun Jul 04 22:45:15 COT 2021
-6;Andrea;Sun Jul 04 22:45:15 COT 2021;Ingles;Academico;280.0;Sun Jul 04 22:45:15 COT 2021
-6;Andrea;Sun Jul 04 22:45:15 COT 2021;Ingles;Academico;280.0;Sun Jul 04 22:45:15 COT 2021
-6;Andrea;Sun Jul 04 22:45:57 COT 2021;Ingles;Academico;280.0;Sun Jul 04 22:45:57 COT 2021
-6;Andrea;Sun Jul 04 22:45:58 COT 2021;Ingles;Academico;280.0;Sun Jul 04 22:45:58 COT 2021
-6;Andrea;Sun Jul 04 22:45:58 COT 2021;Ingles;Academico;280.0;Sun Jul 04 22:45:58 COT 2021
-6;Andrea;Sun Jul 04 22:46:38 COT 2021;Ingles;Academico;280.0;Sun Jul 04 22:46:38 COT 2021
-6;Andrea;Sun Jul 04 22:46:38 COT 2021;Ingles;Academico;280.0;Sun Jul 04 22:46:38 COT 2021
-6;Andrea;Sun Jul 04 22:46:38 COT 2021;Ingles;Academico;280.0;Sun Jul 04 22:46:38 COT 2021

@@ -39,7 +39,7 @@ public class Main {
         profesor[1]=secretaria.registrarProfesor("Ibeth","Lopez Fernandez", 102);
 
         //La secretaria asigna un profesor a un curso
-        secretaria.asignarProfesorACurso(profesor[0], curso1);
+        secretaria.asignarProfesorACurso(profesor[1], curso1);
 
 
     }
