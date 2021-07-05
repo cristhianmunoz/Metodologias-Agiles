@@ -23,9 +23,15 @@ public class Secretaria extends Persona{
 
         return profesor;
     }
-    public void asignarProfesorACurso(String profesor, Curso curso){
-            curso.asignarProfesor(profesor);
-
+    public void asignarProfesorACurso(Profesor profesor, Curso curso){
+        if (profesor.getEstado()==true && curso.getProfesor()==null){
+            curso.setProfesor(profesor);
+            System.out.println("Porfesor Asignado con exito");
+        } if(curso.getProfesor()!=null){
+            System.out.println("Ya existe profesor asignado a este curso");
+        } else{
+            System.out.println("Porfesor no disponible");
+        }
 
     }
 

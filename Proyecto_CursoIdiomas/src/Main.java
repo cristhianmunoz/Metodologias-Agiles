@@ -35,10 +35,11 @@ public class Main {
         //Se registran a los Profesores
         Profesor profesor[]=new Profesor[2];
         profesor[0]=secretaria.registrarProfesor("Josue","Muñoz Rodriguez", 101);
+        profesor[0].setEstado(false);
         profesor[1]=secretaria.registrarProfesor("Ibeth","Lopez Fernandez", 102);
 
         //La secretaria asigna un profesor a un curso
-        secretaria.asignarProfesorACurso(profesor[0].getNombre(), curso1);
+        secretaria.asignarProfesorACurso(profesor[0], curso1);
 
 
     }
