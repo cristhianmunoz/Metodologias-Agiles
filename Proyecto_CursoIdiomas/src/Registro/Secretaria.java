@@ -33,7 +33,7 @@ public class Secretaria extends Persona {
         if (curso.getProfesor() != null) {
             System.out.println("Ya existe profesor asignado a este curso");
         } else {
-            System.out.println("Porfesor no disponible");
+            System.out.println("Profesor no disponible");
         }
 
     }

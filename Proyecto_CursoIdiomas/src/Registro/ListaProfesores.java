@@ -2,6 +2,7 @@ package Registro;
 
 import javax.swing.*;
 import java.io.*;
+import java.nio.file.Path;
 
 public class ListaProfesores {
     private Profesor profesor;
@@ -9,47 +10,43 @@ public class ListaProfesores {
 
     public void agregarProfesor (Profesor profesor){
     this.profesor=profesor;
-
-        File file= new File("ListaProfesores.txt");
+        File file= new File(getPath());
 
         if(file.exists()){
             try {
-                FileWriter fw = new FileWriter(file,true);
-                FileReader fr= new FileReader(file);
-                BufferedReader br=new BufferedReader(fr);
-                BufferedWriter bw = new BufferedWriter(fw);
-                PrintWriter pw= new PrintWriter(bw);
-
-                String linea =br.readLine();
-
-                pw.println(this.profesor.toSave());
-                bw.flush();
-
+                setEscribirEnArchivo(file, true);
             }catch (Exception e){
                 JOptionPane.showMessageDialog(null, "Ha sucedido un error en ListaEstudiantes");
-
             }
-
         }else {
             try {
                 file.createNewFile();
-                FileWriter fw = new FileWriter(file);
-                BufferedWriter bw = new BufferedWriter(fw);
-                PrintWriter wr= new PrintWriter(bw);
-
-                wr.println(this.profesor.toSave());
-                bw.flush();
-
+                setEscribirEnArchivo(file, false);
             } catch (IOException e) {
                 e.printStackTrace();
+                JOptionPane.showMessageDialog(null, "Ha sucedido un error en ListaEstudiantes");
             }
-
         }
-
     }
+
+    private void setEscribirEnArchivo(File file, boolean b) throws IOException {
+        FileWriter fw = new FileWriter(file,b);
+        BufferedWriter bw = new BufferedWriter(fw);
+        PrintWriter pw= new PrintWriter(bw);
+
+        pw.println(this.profesor.toSave());
+        pw.close();
+        bw.close();
+    }
+    private String getPath(){
+        return "ListaProfesores.txt";
+    }
+
     public void darDeBaja(Profesor profesor){
 
     }
+
+
 
 
 

@@ -43,7 +43,7 @@ public class Curso {
     }
 
     public void añadirListaEstudiante(Estudiante estudiante){
-        this.listaEstudiantes.agregarEstudiante(estudiante);
+        this.listaEstudiantes.agregarEstudiante(estudiante, getNameFile());
     }
 
     public void asignarProfesor (String profesor){
@@ -84,19 +84,8 @@ public class Curso {
         //Matricula generarMatriula = new Matricula();
         String sCadena="";
         int cuposDisponibles = 0;
-        int numeroEstudiantes = 0;
+        int numeroEstudiantes = this.listaEstudiantes.getEstudiantesMatriculados(getNameFile());
 
-        try{
-            FileReader fr = new FileReader("ListaEstudiantes.txt");
-            BufferedReader bf = new BufferedReader(fr);
-
-            while ((sCadena = bf.readLine())!=null) {
-                numeroEstudiantes++;
-            }
-
-        }catch (IOException e){
-            e.printStackTrace();
-        }
         if(numeroEstudiantes < 25){
             cuposDisponibles = 25-numeroEstudiantes;
             System.out.println("Cupos Disponibles: "+cuposDisponibles);
@@ -116,4 +105,9 @@ public class Curso {
                 ", horario='" + horario + '\'' +
                 '}';
     }
+
+    private String getNameFile(){
+        return getId()+"_"+"ListaEstudiantes.txt";
+    }
+
 }

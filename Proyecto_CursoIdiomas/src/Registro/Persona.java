@@ -16,20 +16,20 @@ public abstract class Persona {
         this.nombre = nombre;
     }
 
-    public String getNombre() {
-        return nombre;
-    }
-
     public void setApellidos(String apellidos) {
         this.apellidos = apellidos;
     }
 
-    public String getApellidos() {
-        return apellidos;
-    }
-
     public void setId(int id) {
         this.id = id;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getApellidos() {
+        return apellidos;
     }
 
     public int getId() {
