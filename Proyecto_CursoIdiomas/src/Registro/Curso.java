@@ -31,6 +31,14 @@ public class Curso {
         return idioma;
     }
 
+    public void setIdioma(String idioma) {
+        this.idioma = idioma;
+    }
+
+    public String getNivel() {
+        return nivel;
+    }
+
     public String getHorario() {
         return horario;
     }
@@ -63,7 +71,7 @@ public class Curso {
                         //Reescribe la lista con estado=ocupado
 
                         //
-                        getProfesor().getNombre();
+                        //getProfesor().getNombre();
                         //return this.profesor;
                     } else {
                         System.out.println("Profesor no disponible");
@@ -71,21 +79,17 @@ public class Curso {
                 }else{
                     System.out.println("No existen registro del profesor");
                 }
-
             }
         }catch (IOException e){
             e.printStackTrace();
         }
-        //return this.profesor;
     }
 
     public boolean verificarCupos(){
-
         //Matricula generarMatriula = new Matricula();
         String sCadena="";
         int cuposDisponibles = 0;
         int numeroEstudiantes = this.listaEstudiantes.getEstudiantesMatriculados(getNameFile());
-
         if(numeroEstudiantes < 25){
             cuposDisponibles = 25-numeroEstudiantes;
             System.out.println("Cupos Disponibles: "+cuposDisponibles);
@@ -93,6 +97,22 @@ public class Curso {
         }else{
             return false;
         }
+    }
+
+    private String getNameFile(){
+        return getId()+"_"+"ListaEstudiantes.txt";
+    }
+
+    public boolean asignarCurso(Matricula matricula) {
+
+        if(verificarCupos()){
+            añadirListaEstudiante(matricula.getEstudiante());
+            matricula.generarComprobante(matricula.getEstudiante(), matricula.getCursoMatriculado());
+            return true;
+        }else{
+            return false;
+        }
+
     }
 
     @Override
@@ -105,9 +125,4 @@ public class Curso {
                 ", horario='" + horario + '\'' +
                 '}';
     }
-
-    private String getNameFile(){
-        return getId()+"_"+"ListaEstudiantes.txt";
-    }
-
 }

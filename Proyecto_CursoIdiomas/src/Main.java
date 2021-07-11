@@ -40,7 +40,7 @@ public class Main {
 
         //La secretaria asigna un profesor a un curso
         secretaria.asignarProfesorACurso(profesor[1], curso1);
-
+        System.out.println(curso1.getIdioma());
 
     }
 }
