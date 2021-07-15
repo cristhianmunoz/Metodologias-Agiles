@@ -8,7 +8,7 @@ public class ListaProfesores {
     private Profesor profesor;
     private ListaProfesores listaProfesores;
 
-    public void agregarProfesor (Profesor profesor){
+    public void agregarProfesor (Profesor profesor, String getPath){
     this.profesor=profesor;
         File file= new File(getPath());
 
@@ -16,7 +16,7 @@ public class ListaProfesores {
             try {
                 setEscribirEnArchivo(file, true);
             }catch (Exception e){
-                JOptionPane.showMessageDialog(null, "Ha sucedido un error en ListaEstudiantes");
+                JOptionPane.showMessageDialog(null, "Ha sucedido un error en ListaProfesores");
             }
         }else {
             try {
@@ -24,7 +24,7 @@ public class ListaProfesores {
                 setEscribirEnArchivo(file, false);
             } catch (IOException e) {
                 e.printStackTrace();
-                JOptionPane.showMessageDialog(null, "Ha sucedido un error en ListaEstudiantes");
+                JOptionPane.showMessageDialog(null, "Ha sucedido un error en ListaProfesores");
             }
         }
     }
@@ -46,10 +46,11 @@ public class ListaProfesores {
 
     }
 
+    public Profesor getProfesor() {
+        return profesor;
+    }
 
-
-
-
-
-
+    public void setProfesor(Profesor profesor) {
+        this.profesor = profesor;
+    }
 }

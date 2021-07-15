@@ -54,7 +54,7 @@ public class Curso {
         this.listaEstudiantes.agregarEstudiante(estudiante, getNameFile());
     }
 
-    public void asignarProfesor (String profesor){
+    /*public void asignarProfesor (String profesor){
         //Instanciar la Lista de Profesores
         //ListaProfesores profesores = new ListaProfesores();
         String estado = "Disponible";
@@ -83,6 +83,9 @@ public class Curso {
         }catch (IOException e){
             e.printStackTrace();
         }
+    }*/
+    public void asignarProfesor (Profesor profesor){
+        profesor.setEstado(false);
     }
 
     public boolean verificarCupos(){

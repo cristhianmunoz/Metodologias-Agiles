@@ -7,7 +7,7 @@ public class Matricula {
 
     public Matricula(Estudiante estudiante, Curso curso) {
             this.estudiante = estudiante;
-
+            this.cursoMatriculado= curso;
         if (curso.asignarCurso(this)){
             System.out.println("Estudiante matriculado con èxito");
         } else System.out.println("Curso no Disponible");

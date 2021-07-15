@@ -5,7 +5,7 @@ import java.io.*;
 import java.util.Date;
 
 public class Comprobante {
-    private int idComprobante=0;
+    private int idComprobante;
     private String cliente;
     private Date date;
     private String idioma;
@@ -14,12 +14,19 @@ public class Comprobante {
     private Date fecha_pago;
 
     public Comprobante(Estudiante cliente,Curso curso) {
-        this.idComprobante =+ idComprobante;
         this.cliente = cliente.getNombre()+" "+cliente.getApellidos();
         this.date = date;
-        //this.idioma = curso.getIdioma();
-        //this.nivel= curso.getNivel();
+        this.idioma = curso.getIdioma();
+        this.nivel= curso.getNivel();
         this.valor = calculoPago();
+    }
+
+    public int getIdComprobante() {
+        return idComprobante++;
+    }
+
+    public void setIdComprobante(int idComprobante) {
+        this.idComprobante = idComprobante;
     }
 
     public String getIdioma() {
@@ -38,18 +45,18 @@ public class Comprobante {
                 "; Idioma: "+this.idioma+
                 "; Nivel: "+this.nivel+
                 "; Costo: "+calculoPago()+
-                "; Fecha de Pago: "+date;
+                "; Fecha de Pago: "+date.getMonth();
 
     }
     public String toSave(){
 
-        return this.idComprobante+";"+this.cliente+";"+date+";"+this.idioma+";"+this.nivel+";"+calculoPago()+";"+date;
+        return this.idComprobante+";"+this.cliente+";"+date+";"+this.idioma+";"+this.nivel+";"+this.valor+";"+date;
 
     }
 
     public void guardarComporbante(){
         String Comprobante = toSave();
-        File voucher = new File("Datos_Comprobante.txt");
+        File voucher = new File(getPath());
         checkFile(voucher);
     }
 
@@ -83,5 +90,7 @@ public class Comprobante {
     public double calculoPago(){
         return valor*0.12+valor;
     }
-
+    private String getPath(){
+        return "Datos_Comprobante.txt";
+    }
 }

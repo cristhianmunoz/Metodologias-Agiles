@@ -26,11 +26,14 @@ public class Main {
 
         //Intento de matricular a un Estudiante
         System.out.println("MATRICULACIÒN DEL ESTUDIANTE\n");
-        for (Estudiante registrar:estudiante) {
+        //for (Estudiante registrar:estudiante) {
             if (curso1.verificarCupos()) {
-                Matricula matricula = new Matricula(estudiante[0], curso1);
+                for(int i=0;i<estudiante.length;i++){
+                    Matricula matricula = new Matricula(estudiante[i], curso1);
+                    //Matricula matricula = new Matricula(estudiante[0], curso1);
+                }
             }
-        }
+        //}
 
         //Se registran a los Profesores
         Profesor profesor[]=new Profesor[2];
@@ -38,9 +41,16 @@ public class Main {
         profesor[0].setEstado(false);
         profesor[1]=secretaria.registrarProfesor("Ibeth","Lopez Fernandez", 102);
 
+
         //La secretaria asigna un profesor a un curso
         secretaria.asignarProfesorACurso(profesor[1], curso1);
-        System.out.println(curso1.getIdioma());
+        secretaria.asignarProfesorACurso(profesor[1], curso1);
+
+        ListaProfesores lp = new ListaProfesores();
+        lp.agregarProfesor(profesor[0],"ListaProfesores.txt");
+        lp.agregarProfesor(profesor[1],"ListaProfesores.txt");
+
+
 
     }
 }
