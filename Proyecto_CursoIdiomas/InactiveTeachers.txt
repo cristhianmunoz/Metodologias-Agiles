@@ -1,0 +1,5 @@
+103;Andrea;Cachipuendo Catucuamba;true;
+103;Andrea;Cachipuendo Catucuamba;true;
+103;Andrea;Cachipuendo Catucuamba;true;
+101;Josue;Muñoz Rodriguez;false;
+101;Josue;Muñoz Rodriguez;false;

@@ -1,0 +1,3 @@
+12;Cristhian;Muñoz Aulestia;
+13;David;Suarez Vanegas;
+14;Andrea;Cachipuendo Catucuamba;

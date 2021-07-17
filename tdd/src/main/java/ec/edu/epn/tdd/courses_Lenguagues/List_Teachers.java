@@ -1,28 +1,27 @@
-package Registro;
+package ec.edu.epn.tdd.courses_Lenguagues;
 
 import javax.swing.*;
 import java.io.*;
-import java.nio.file.Path;
 import java.util.ArrayList;
 
-public class ListaProfesores {
+public class List_Teachers {
     ArrayList<String[]> AUX = new ArrayList<>();
-    private Profesor profesor;
-    private ListaProfesores listaProfesores;
+    private Teacher teacher;
+    private List_Teachers listTeachers;
 
-    public ListaProfesores() {
-        this.profesor = profesor;
+    public List_Teachers() {
+        this.teacher = teacher;
     }
 
-    public void agregarProfesor (Profesor profesor){
-    this.profesor=profesor;
+    public void agregarProfesor (Teacher teacher){
+    this.teacher = teacher;
         File file= new File(getPath());
 
         if(file.exists()){
             try {
                 setEscribirEnArchivo(file, true);
             }catch (Exception e){
-                JOptionPane.showMessageDialog(null, "Ha sucedido un error en ListaProfesores");
+                JOptionPane.showMessageDialog(null, "Ha sucedido un error en List_Teachers");
             }
         }else {
             try {
@@ -30,16 +29,16 @@ public class ListaProfesores {
                 setEscribirEnArchivo(file, false);
             } catch (IOException e) {
                 e.printStackTrace();
-                JOptionPane.showMessageDialog(null, "Ha sucedido un error en ListaProfesores");
+                JOptionPane.showMessageDialog(null, "Ha sucedido un error en List_Teachers");
             }
         }
     }
-    public void darDeBaja(Profesor profesor, Curso []curso){
-        this.profesor=profesor;
+    public void darDeBaja(Teacher teacher, Course[] course){
+        this.teacher = teacher;
 
         File file= new File(getPathInactiveTeacher());
         try{
-            //profesor.setEstado(false);
+            //teacher.setEstado(false);
             if(file.exists()){
                 setEscribirEnArchivo(file, true);
             }else{
@@ -50,18 +49,18 @@ public class ListaProfesores {
             e.printStackTrace();
         }
 
-        //profesor.getEstado() = TRUE = disponible
-        //!profesor.getEstado() = FALSE = no esta disponible
-        if(!profesor.getEstado()){
-            //System.out.println("estado:"+profesor.getEstado());
-            for(int i=0;i<curso.length;i++){
-                if(curso[i].getProfesor()==profesor){
-                    System.out.println("Asignar un nuevo profesor al curso "+curso[i]);
-                    curso[i].setProfesor(null);
+        //teacher.getEstado() = TRUE = disponible
+        //!teacher.getEstado() = FALSE = no esta disponible
+        if(!teacher.getEstado()){
+            //System.out.println("estado:"+teacher.getEstado());
+            for(int i = 0; i< course.length; i++){
+                if(course[i].getProfesor()== teacher){
+                    System.out.println("Asignar un nuevo teacher al course "+ course[i]);
+                    course[i].setProfesor(null);
                 }
             }
         }
-        editedFileTxt(getPath(),profesor.getApellidos());
+        editedFileTxt(getPath(), teacher.getApellidos());
         System.out.println("");
     }
 
@@ -89,8 +88,8 @@ public class ListaProfesores {
         }
     }
 
-    public void eliminarProfesor(Profesor profesor, Curso []cursos, String path1, String path2){
-        profesor = null;
+    public void eliminarProfesor(Teacher teacher, Course[] courses, String path1, String path2){
+        teacher = null;
 
 
     }
@@ -99,22 +98,22 @@ public class ListaProfesores {
         BufferedWriter bw = new BufferedWriter(fw);
         PrintWriter pw= new PrintWriter(bw);
 
-        pw.println(this.profesor.toSave());
+        pw.println(this.teacher.toSave());
         pw.close();
         bw.close();
     }
     private String getPath(){
-        return "ListaProfesores.txt";
+        return "List_Teachers.txt";
     }
     private String getPathInactiveTeacher(){
         return "InactiveTeachers.txt";
     }
 
-    public Profesor getProfesor() {
-        return profesor;
+    public Teacher getProfesor() {
+        return teacher;
     }
 
-    public void setProfesor(Profesor profesor) {
-        this.profesor = profesor;
+    public void setProfesor(Teacher teacher) {
+        this.teacher = teacher;
     }
 }
