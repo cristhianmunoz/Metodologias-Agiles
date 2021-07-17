@@ -2,13 +2,12 @@ package Registro;
 
 import javax.swing.*;
 import java.io.*;
-import java.nio.file.Path;
 
 public class ListaProfesores {
     private Profesor profesor;
     private ListaProfesores listaProfesores;
 
-    public void agregarProfesor (Profesor profesor, String getPath){
+    public void agregarProfesor (Profesor profesor){
     this.profesor=profesor;
         File file= new File(getPath());
 

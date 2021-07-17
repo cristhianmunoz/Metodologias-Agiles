@@ -1,7 +1,5 @@
 import Registro.*;
 
-import java.util.Scanner;
-
 public class Main {
     public static void main (String [] args){
 
@@ -15,7 +13,7 @@ public class Main {
         System.out.println("==========  BIENVENIDA AL SISTEMA  ===========\n");
 
         //se pueden pasar por parametros los datos de los Estudiantes
-        Estudiante estudiante[]=new Estudiante[3];
+        Persona estudiante[]=new Estudiante[3];
         estudiante[0]= secretaria.inscribirEstudiante("Cristhian","Muñoz Aulestia", 12);
         estudiante[1]=secretaria.inscribirEstudiante("David","Suarez Vanegas", 13);
         estudiante[2]=secretaria.inscribirEstudiante("Andrea","Cachipuendo Catucuamba", 14);
@@ -47,8 +45,8 @@ public class Main {
         secretaria.asignarProfesorACurso(profesor[1], curso1);
 
         ListaProfesores lp = new ListaProfesores();
-        lp.agregarProfesor(profesor[0],"ListaProfesores.txt");
-        lp.agregarProfesor(profesor[1],"ListaProfesores.txt");
+        lp.agregarProfesor(profesor[0]);
+        lp.agregarProfesor(profesor[1]);
 
 
 

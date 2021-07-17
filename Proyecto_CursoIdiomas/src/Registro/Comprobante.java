@@ -61,20 +61,16 @@ public class Comprobante {
     }
 
     private void checkFile(File voucher) {
-        if(voucher.exists()) {
             try{
-                FileTXT(voucher, true);
+                if(voucher.exists()) {
+                    FileTXT(voucher, true);
+                } else{
+                    voucher.createNewFile();
+                    FileTXT(voucher, false);
+                }
             } catch (Exception e) {
                 e.printStackTrace();
             }
-        }else{
-            try{
-                voucher.createNewFile();
-                FileTXT(voucher, false);
-            }catch(IOException e){
-                e.printStackTrace();
-            }
-        }
     }
 
     private void FileTXT(File voucher, boolean b) throws IOException {

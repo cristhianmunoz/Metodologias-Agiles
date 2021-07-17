@@ -54,9 +54,9 @@ public class ListaEstudiantes {
             }
             FileReader fr = new FileReader(file);
             BufferedReader bf = new BufferedReader(fr);
-            while ((sCadena = bf.readLine())!=null) {
-                numeroEstudiantes++;
-            }
+                while ((sCadena = bf.readLine())!=null) {
+                    numeroEstudiantes++;
+                }
         }catch (IOException e){
             e.printStackTrace();
         }
