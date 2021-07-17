@@ -31,6 +31,7 @@ public class Secretaria extends Persona {
 
         if (profesor.getEstado() == true && curso.getProfesor() == null) {
             curso.setProfesor(profesor);
+            curso.asignarProfesor(false);
             System.out.println("Porfesor Asignado con exito");
         }
         if (curso.getProfesor() != null) {
@@ -40,4 +41,5 @@ public class Secretaria extends Persona {
         }
 
     }
+
 }
