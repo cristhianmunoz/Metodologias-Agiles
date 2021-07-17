@@ -84,8 +84,9 @@ public class Curso {
             e.printStackTrace();
         }
     }*/
-    public void asignarProfesor (Profesor profesor){
-        profesor.setEstado(false);
+    public void asignarProfesor (boolean b){
+        this.profesor.setEstado(b);
+        System.out.println("Se ha cambiado el estado del profesor a No disponible");
     }
 
     public boolean verificarCupos(){
