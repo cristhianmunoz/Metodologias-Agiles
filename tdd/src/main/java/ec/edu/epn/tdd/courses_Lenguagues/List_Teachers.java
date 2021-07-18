@@ -37,24 +37,13 @@ public class List_Teachers {
         this.teacher = teacher;
 
         File file= new File(getPathInactiveTeacher());
-        try{
-            //teacher.setEstado(false);
-            if(file.exists()){
-                setEscribirEnArchivo(file, true);
-            }else{
-                file.createNewFile();
-                setEscribirEnArchivo(file, true);
-            }
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-
+        checkFileInactiveTeachers(file);
+        checkRegisterTeacher(teacher);
         //teacher.getEstado() = TRUE = disponible
         //!teacher.getEstado() = FALSE = no esta disponible
         if(!teacher.getEstado()){
-            //System.out.println("estado:"+teacher.getEstado());
             for(int i = 0; i< course.length; i++){
-                if(course[i].getProfesor()== teacher){
+                if(course[i].getProfesor().getId()== teacher.getId()){
                     System.out.println("Asignar un nuevo teacher al course "+ course[i]);
                     course[i].setProfesor(null);
                 }
@@ -64,10 +53,42 @@ public class List_Teachers {
         System.out.println("");
     }
 
+    private boolean checkRegisterTeacher(Teacher teacher) {
+        String line="";
+        //VERIFICA QUE EL PROFESOR EXISTE EN LA LISTA
+        try{
+            BufferedReader br = new BufferedReader(new FileReader(getPath()));
+            while((line= br.readLine()) !=null){
+                if(line.indexOf(teacher.getApellidos())!= -1){
+                    System.out.println("Se han encontrado registro del Profesor");
+                    return true;
+                }else{
+                    System.out.println("No se ha encontrado registro del Profesor");
+                    return false;
+                }
+            }
+        }catch(IOException e){
+            e.printStackTrace();
+        }
+        return true;
+    }
+
+    private void checkFileInactiveTeachers(File file) {
+        try{
+            if(file.exists()){
+                setEscribirEnArchivo(file, true);
+            }else{
+                file.createNewFile();
+                setEscribirEnArchivo(file, true);
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
     public void editedFileTxt(String path, String apellidos){
         String line = "";
         String sCadena="";
-
         try {
             //BUSCAR SI EXISTE UNA PALABRA
             BufferedReader br = new BufferedReader(new FileReader(path));
