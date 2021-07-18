@@ -20,10 +20,11 @@ public class Main {
         System.out.println("==========  BIENVENIDA AL SISTEMA  ===========\n");
 
         //se pueden pasar por parametros los datos de los Estudiantes
-        Student estudiante[]=new Student[3];
+        Student estudiante[]=new Student[4];
         estudiante[0]= secretaria.inscribirEstudiante("Cristhian","Muñoz Aulestia", 12);
         estudiante[1]=secretaria.inscribirEstudiante("David","Suarez Vanegas", 13);
         estudiante[2]=secretaria.inscribirEstudiante("Andrea","Cachipuendo Catucuamba", 14);
+        estudiante[3]=secretaria.inscribirEstudiante("Cristhian", "Muñoz", 1707996318);
 
         //la secretaria verifica si existe disponibilidad de cupos
         //curso1.verificarCupos();

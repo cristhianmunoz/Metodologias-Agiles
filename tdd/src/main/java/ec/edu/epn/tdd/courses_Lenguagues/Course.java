@@ -47,7 +47,7 @@ public class Course {
     }
 
     public void añadirListaEstudiante(Student student){
-        this.listStudents.agregarEstudiante(student, getNameFile());
+        this.listStudents.add_Student(student, getNameFile());
     }
 
     /*public void asignarProfesor (String teacher){
@@ -89,7 +89,7 @@ public class Course {
         //Enrollment generarMatriula = new Enrollment();
         String sCadena="";
         int cuposDisponibles = 0;
-        int numeroEstudiantes = this.listStudents.getEstudiantesMatriculados(getNameFile());
+        int numeroEstudiantes = this.listStudents.get_Enrolled_Students(getNameFile());
         if(numeroEstudiantes < 25){
             cuposDisponibles = 25-numeroEstudiantes;
             System.out.println("Cupos Disponibles: "+cuposDisponibles);

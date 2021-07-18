@@ -1,3 +1,6 @@
 12;Cristhian;Muñoz Aulestia;
 13;David;Suarez Vanegas;
+14;Andrea;Cachipuendo Catucuamba;12;Cristhian;Muñoz Aulestia;
+13;David;Suarez Vanegas;
 14;Andrea;Cachipuendo Catucuamba;
+1707996318;Cristhian;Muñoz;

@@ -5,16 +5,15 @@ import java.io.*;
 
 public class List_Students {
     private Student student;
-    private List_Students listStudents;
 
-    public void agregarEstudiante (Student student, String path){
+    public void add_Student(Student student, String path){
         this.student = student;
 
         File file= new File(path);
 
         if(file.exists()){
             try {
-                setEscribirEnArchivo(file, true);
+                set_write_file(file, true);
             }catch (Exception e){
                 e.printStackTrace();
                 JOptionPane.showMessageDialog(null, "Ha sucedido un error en List_Students");
@@ -22,7 +21,7 @@ public class List_Students {
         }else {
             try {
                 file.createNewFile();
-                setEscribirEnArchivo(file, false);
+                set_write_file(file, false);
             } catch (IOException e) {
                 e.printStackTrace();
                 JOptionPane.showMessageDialog(null, "Ha sucedido un error en List_Students");
@@ -30,7 +29,7 @@ public class List_Students {
         }
     }
 
-    private void setEscribirEnArchivo(File file, boolean b) throws IOException {
+    private void set_write_file(File file, boolean b) throws IOException {
         FileWriter fw = new FileWriter(file, b);
         BufferedWriter bw = new BufferedWriter(fw);
         PrintWriter pw = new PrintWriter(bw);
@@ -39,11 +38,39 @@ public class List_Students {
         bw.close();
     }
 
-    public void darDeBaja(Student student){
+    public Student unsubscribe_Student(String id, String path){
+        String line = "";
+        String sCadena="";
+        String id_Student= id;
+        Student result= null;
 
+        try {
+            //BUSCAR SI EXISTE UNA PALABRA
+            BufferedReader br = new BufferedReader(new FileReader(path));
+            while((line= br.readLine()) !=null){
+                if(line.contains(id_Student)){
+
+                    String [] elements= toString().split(";");
+                    result= new Student(elements[1],elements[2],Integer.parseInt(elements[0]));
+                    sCadena += line.replaceAll(line,"");
+                    return result;
+                }else{
+                    sCadena += line+"\n";
+                    return null;
+                }
+            }
+            FileWriter wr = new FileWriter(path);
+            wr.write(sCadena);
+            br.close();
+            wr.close();
+
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+        return result;
     }
 
-    public int getEstudiantesMatriculados(String path){
+    public int get_Enrolled_Students(String path){
         int numeroEstudiantes = 0;
         String sCadena="";
 

@@ -1,3 +1,7 @@
 0;Cristhian Muñoz Aulestia;Sat Jul 17 18:22:02 COT 2021;Inglès;Academico 1;280.0;Sat Jul 17 18:22:02 COT 2021
 0;David Suarez Vanegas;Sat Jul 17 18:22:02 COT 2021;Inglès;Academico 1;280.0;Sat Jul 17 18:22:02 COT 2021
 0;Andrea Cachipuendo Catucuamba;Sat Jul 17 18:22:02 COT 2021;Inglès;Academico 1;280.0;Sat Jul 17 18:22:02 COT 2021
+0;Cristhian Muñoz Aulestia;Sat Jul 17 23:20:59 COT 2021;Inglès;Academico 1;280.0;Sat Jul 17 23:20:59 COT 2021
+0;David Suarez Vanegas;Sat Jul 17 23:20:59 COT 2021;Inglès;Academico 1;280.0;Sat Jul 17 23:20:59 COT 2021
+0;Andrea Cachipuendo Catucuamba;Sat Jul 17 23:20:59 COT 2021;Inglès;Academico 1;280.0;Sat Jul 17 23:20:59 COT 2021
+0;Cristhian Muñoz;Sat Jul 17 23:20:59 COT 2021;Inglès;Academico 1;280.0;Sat Jul 17 23:20:59 COT 2021
