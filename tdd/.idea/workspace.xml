@@ -13,12 +13,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="List_StudentsTest.given_Student_when_unsubscribe_then_okay" />
+    </enabled-run-configurations>
   </component>
   <component name="ProjectId" id="1vSZ6bpIm3uCoQrRiCoZV7hjNNQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -58,7 +64,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.List_StudentsTest.given_Student_when_unsubscribe_then_okay">
+  <component name="RunManager" selected="JUnit.I_List_StudentsTest.give_Course_when_finishPeriod_then_ok">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="tdd" />
@@ -66,13 +72,79 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="I_List_StudentsTest.give_Course_when_finishPeriod_then_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.tdd.courses_Lenguagues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.tdd.courses_Lenguagues" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.tdd.courses_Lenguagues.I_List_StudentsTest" />
+      <option name="METHOD_NAME" value="give_Course_when_finishPeriod_then_ok" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="List_StudentsParametersTest.given_parameters_when_add_then_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.tdd.courses_Lenguagues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.tdd.courses_Lenguagues" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.tdd.courses_Lenguagues.List_StudentsParametersTest" />
+      <option name="METHOD_NAME" value="given_parameters_when_add_then_ok" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="List_StudentsTest.given_IDStudent_when_unsubscribe_then_timeout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.tdd.courses_Lenguagues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.tdd.courses_Lenguagues" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.tdd.courses_Lenguagues.List_StudentsTest" />
+      <option name="METHOD_NAME" value="given_IDStudent_when_unsubscribe_then_timeout" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="List_StudentsTest.given_Student_when_add_then_tiemout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.tdd.courses_Lenguagues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.tdd.courses_Lenguagues" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.tdd.courses_Lenguagues.List_StudentsTest" />
+      <option name="METHOD_NAME" value="given_Student_when_add_then_tiemout" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,6 +167,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.I_List_StudentsTest.give_Course_when_finishPeriod_then_ok" />
+        <item itemvalue="JUnit.List_StudentsParametersTest.given_parameters_when_add_then_ok" />
+        <item itemvalue="JUnit.List_StudentsTest.given_Student_when_add_then_tiemout" />
+        <item itemvalue="JUnit.List_StudentsTest.given_IDStudent_when_unsubscribe_then_timeout" />
         <item itemvalue="JUnit.List_StudentsTest.given_Student_when_unsubscribe_then_okay" />
       </list>
     </recent_temporary>
@@ -109,11 +185,29 @@
       <updated>1626557279945</updated>
       <workItem from="1626557281557" duration="5770000" />
       <workItem from="1626574742415" duration="2465000" />
-      <workItem from="1626577270279" duration="6641000" />
+      <workItem from="1626577270279" duration="19135000" />
+      <workItem from="1626621703076" duration="5678000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tdd$List_StudentsTest_given_Student_when_unsubscribe_then_okay.ic" NAME="List_StudentsTest.given_Student_when_unsubscribe_then_okay Coverage Results" MODIFIED="1626585828514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ec.edu.epn.tdd.courses_Lenguagues.*</FILTER>
+    </SUITE>
   </component>
 </project>
