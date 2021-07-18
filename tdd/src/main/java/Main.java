@@ -74,6 +74,5 @@ public class Main {
         System.out.println("__________    DAR DE BAJA PROFESOR     ________\n");
         lp.darDeBaja(profesor[0],cursos);
 
-
     }
 }
