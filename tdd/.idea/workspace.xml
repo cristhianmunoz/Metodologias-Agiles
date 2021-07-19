@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73b24ab8-f7d9-4c3f-9854-14b1d0247e16" name="Default Changelist" comment="Cambios en las clase List_Teacher extracciòn del mètodo checkRegisterTeacher">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/tdd/courses_Lenguagues/List_TeachersTest.java" afterDir="false" />
+    <list default="true" id="73b24ab8-f7d9-4c3f-9854-14b1d0247e16" name="Default Changelist" comment="Test unitarios en dar de baja profesor">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/I_ListTeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/tdd/courses_Lenguagues/I_ListTeacherTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/InactiveTeachers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/InactiveTeachers.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/List_Teachers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/List_Teachers.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/List_Teachers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/List_Teachers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/tdd/courses_Lenguagues/List_TeachersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/tdd/courses_Lenguagues/List_TeachersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Lenguagues/List_Teachers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Lenguagues/List_Teachers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Lenguagues/Secretary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Lenguagues/Secretary.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="JUnit4 Test Class" />
       </list>
     </option>
@@ -80,7 +80,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.List_TeachersTest.given_teacher_when_checkRegisterTeacher_then_true">
+  <component name="RunManager" selected="JUnit.List_TeachersTest.given_teacher_course_when_darDeBja_then_error">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -99,7 +99,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="List_StudentsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="I_ListTeacherTest.given_two_String_when_editedFileTxt_then_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +108,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ec.edu.epn.tdd.courses_Lenguagues" />
-      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.tdd.courses_Lenguagues.List_StudentsTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.tdd.courses_Lenguagues.I_ListTeacherTest" />
+      <option name="METHOD_NAME" value="given_two_String_when_editedFileTxt_then_ok" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,6 +131,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="List_TeachersTest.given_teacher_course_when_darDeBja_then_error" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.tdd.courses_Lenguagues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.tdd.courses_Lenguagues" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.tdd.courses_Lenguagues.List_TeachersTest" />
+      <option name="METHOD_NAME" value="given_teacher_course_when_darDeBja_then_error" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="List_TeachersTest.given_teacher_course_when_darDeBja_then_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <extension name="coverage">
@@ -141,6 +158,22 @@
       <option name="PACKAGE_NAME" value="ec.edu.epn.tdd.courses_Lenguagues" />
       <option name="MAIN_CLASS_NAME" value="ec.edu.epn.tdd.courses_Lenguagues.List_TeachersTest" />
       <option name="METHOD_NAME" value="given_teacher_course_when_darDeBja_then_ok" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="List_TeachersTest.given_teacher_when_checkRegisterTeacher_then_false" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.tdd.courses_Lenguagues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.tdd.courses_Lenguagues" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.tdd.courses_Lenguagues.List_TeachersTest" />
+      <option name="METHOD_NAME" value="given_teacher_when_checkRegisterTeacher_then_false" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,9 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.List_TeachersTest.given_teacher_course_when_darDeBja_then_error" />
+        <item itemvalue="JUnit.List_TeachersTest.given_teacher_when_checkRegisterTeacher_then_false" />
         <item itemvalue="JUnit.List_TeachersTest.given_teacher_when_checkRegisterTeacher_then_true" />
+        <item itemvalue="JUnit.I_ListTeacherTest.given_two_String_when_editedFileTxt_then_ok" />
         <item itemvalue="JUnit.List_TeachersTest.given_teacher_course_when_darDeBja_then_ok" />
-        <item itemvalue="JUnit.List_StudentsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626596172724</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Test unitarios en dar de baja profesor">
+      <created>1626608337313</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1626608337313</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,9 +247,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cambios en las clase List_Teacher extracciòn del mètodo checkRegisterTeacher" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambios en las clase List_Teacher extracciòn del mètodo checkRegisterTeacher" />
+    <MESSAGE value="Test unitarios en dar de baja profesor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test unitarios en dar de baja profesor" />
   </component>
 </project>

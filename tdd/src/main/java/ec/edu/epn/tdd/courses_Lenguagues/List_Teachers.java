@@ -5,7 +5,7 @@ import java.io.*;
 import java.util.ArrayList;
 
 public class List_Teachers {
-    public boolean b,p;
+    public boolean b,p,n;
     private Teacher teacher;
     private List_Teachers listTeachers;
 
@@ -38,9 +38,26 @@ public class List_Teachers {
     }
     public boolean darDeBaja(Teacher teacher, Course[] course){
         this.teacher = teacher;
+        String line = "";
         File file= new File(getPathInactiveTeacher());
         checkFileInactiveTeachers(file);
-        checkRegisterTeacher(teacher);
+        //checkRegisterTeacher(teacher);
+        //VERIFICA QUE EL PROFESOR EXISTE EN LA LISTA
+        try{
+            BufferedReader br = new BufferedReader(new FileReader(getPath()));
+            while((line= br.readLine()) !=null){
+                if(line.indexOf(teacher.getApellidos())!= -1){
+                    System.out.println("Se han encontrado registro del Profesor");
+                    b=true;
+                }else{
+                    System.out.println("No se han encontrado registro del Profesor");
+                    b=false;
+                }
+            }
+        }catch(IOException e){
+            e.printStackTrace();
+        }
+        //return b;
         //teacher.getEstado() = TRUE = disponible
         //!teacher.getEstado() = FALSE = no esta disponible
         if(!teacher.getEstado()){
@@ -92,7 +109,7 @@ public class List_Teachers {
         }
     }
 
-    public void editedFileTxt(String path, String apellidos){
+    public boolean editedFileTxt(String path, String apellidos){
         String line = "";
         String sCadena="";
         try {
@@ -109,10 +126,12 @@ public class List_Teachers {
             wr.write(sCadena);
             br.close();
             wr.close();
-
+            n=true;
         }catch (IOException e){
+            n=false;
             e.printStackTrace();
         }
+        return n;
     }
 
     public void eliminarProfesor(Teacher teacher, Course[] courses, String path1, String path2){
@@ -146,16 +165,15 @@ public class List_Teachers {
 
     public boolean checkRegisterTeacher(Teacher  teacher) {
         String line="";
-
         //VERIFICA QUE EL PROFESOR EXISTE EN LA LISTA
         try{
             BufferedReader br = new BufferedReader(new FileReader(getPath()));
             while((line= br.readLine()) !=null){
                 if(line.indexOf(teacher.getApellidos())!= -1){
-                    //System.out.println("Se han encontrado registro del Profesor");
+                    System.out.println("Se han encontrado registro del Profesor");
                     b=true;
                 }else{
-                    //System.out.println("No se han encontrado registro del Profesor");
+                    System.out.println("No se han encontrado registro del Profesor");
                     b=false;
                 }
             }
