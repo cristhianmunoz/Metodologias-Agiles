@@ -5,3 +5,60 @@
 0;David Suarez Vanegas;Sat Jul 17 23:20:59 COT 2021;Inglès;Academico 1;280.0;Sat Jul 17 23:20:59 COT 2021
 0;Andrea Cachipuendo Catucuamba;Sat Jul 17 23:20:59 COT 2021;Inglès;Academico 1;280.0;Sat Jul 17 23:20:59 COT 2021
 0;Cristhian Muñoz;Sat Jul 17 23:20:59 COT 2021;Inglès;Academico 1;280.0;Sat Jul 17 23:20:59 COT 2021
+0;Cristhian Muñoz Aulestia;Sun Jul 18 00:12:43 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 00:12:43 COT 2021
+0;David Suarez Vanegas;Sun Jul 18 00:12:43 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 00:12:43 COT 2021
+0;Andrea Cachipuendo Catucuamba;Sun Jul 18 00:12:43 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 00:12:43 COT 2021
+0;Cristhian Muñoz;Sun Jul 18 00:12:43 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 00:12:43 COT 2021
+0;Cristhian Muñoz Aulestia;Sun Jul 18 00:14:48 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 00:14:48 COT 2021
+0;David Suarez Vanegas;Sun Jul 18 00:14:48 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 00:14:48 COT 2021
+0;Andrea Cachipuendo Catucuamba;Sun Jul 18 00:14:48 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 00:14:48 COT 2021
+0;Cristhian Muñoz;Sun Jul 18 00:14:48 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 00:14:48 COT 2021
+0;Cristhian Muñoz Aulestia;Sun Jul 18 00:15:42 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 00:15:42 COT 2021
+0;David Suarez Vanegas;Sun Jul 18 00:15:42 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 00:15:42 COT 2021
+0;Andrea Cachipuendo Catucuamba;Sun Jul 18 00:15:42 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 00:15:42 COT 2021
+0;Cristhian Muñoz;Sun Jul 18 00:15:42 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 00:15:42 COT 2021
+0;Cristhian Muñoz Aulestia;Sun Jul 18 00:18:53 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 00:18:53 COT 2021
+0;David Suarez Vanegas;Sun Jul 18 00:18:53 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 00:18:53 COT 2021
+0;Andrea Cachipuendo Catucuamba;Sun Jul 18 00:18:53 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 00:18:53 COT 2021
+0;Cristhian Muñoz;Sun Jul 18 00:18:53 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 00:18:53 COT 2021
+0;Cristhian Muñoz Aulestia;Sun Jul 18 00:19:47 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 00:19:47 COT 2021
+0;David Suarez Vanegas;Sun Jul 18 00:19:47 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 00:19:47 COT 2021
+0;Andrea Cachipuendo Catucuamba;Sun Jul 18 00:19:47 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 00:19:47 COT 2021
+0;Cristhian Muñoz;Sun Jul 18 00:19:47 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 00:19:47 COT 2021
+0;Cristhian Muñoz Aulestia;Sun Jul 18 00:25:05 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 00:25:05 COT 2021
+0;David Suarez Vanegas;Sun Jul 18 00:25:05 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 00:25:05 COT 2021
+0;Andrea Cachipuendo Catucuamba;Sun Jul 18 00:25:05 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 00:25:05 COT 2021
+0;Cristhian Muñoz;Sun Jul 18 00:25:05 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 00:25:05 COT 2021
+0;Cristhian Muñoz Aulestia;Sun Jul 18 00:33:04 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 00:33:04 COT 2021
+0;David Suarez Vanegas;Sun Jul 18 00:33:04 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 00:33:04 COT 2021
+0;Andrea Cachipuendo Catucuamba;Sun Jul 18 00:33:04 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 00:33:04 COT 2021
+0;Cristhian Muñoz;Sun Jul 18 00:33:04 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 00:33:04 COT 2021
+0;Cristhian Muñoz Aulestia;Sun Jul 18 01:53:43 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 01:53:43 COT 2021
+0;David Suarez Vanegas;Sun Jul 18 01:53:43 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 01:53:43 COT 2021
+0;Andrea Cachipuendo Catucuamba;Sun Jul 18 01:53:43 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 01:53:43 COT 2021
+0;Cristhian Muñoz;Sun Jul 18 01:53:43 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 01:53:43 COT 2021
+0;Cristhian Muñoz Aulestia;Sun Jul 18 01:55:16 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 01:55:16 COT 2021
+0;David Suarez Vanegas;Sun Jul 18 01:55:16 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 01:55:16 COT 2021
+0;Andrea Cachipuendo Catucuamba;Sun Jul 18 01:55:16 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 01:55:16 COT 2021
+0;Cristhian Muñoz;Sun Jul 18 01:55:16 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 01:55:16 COT 2021
+0;Cristhian Muñoz Aulestia;Sun Jul 18 01:55:25 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 01:55:25 COT 2021
+0;David Suarez Vanegas;Sun Jul 18 01:55:25 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 01:55:25 COT 2021
+0;Andrea Cachipuendo Catucuamba;Sun Jul 18 01:55:25 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 01:55:25 COT 2021
+0;Cristhian Muñoz;Sun Jul 18 01:55:25 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 01:55:25 COT 2021
+0;Cristhian Muñoz Aulestia;Sun Jul 18 02:01:45 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 02:01:45 COT 2021
+0;David Suarez Vanegas;Sun Jul 18 02:01:45 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 02:01:45 COT 2021
+0;Andrea Cachipuendo Catucuamba;Sun Jul 18 02:01:45 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 02:01:45 COT 2021
+0;Cristhian Muñoz Aulestia;Sun Jul 18 02:37:09 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 02:37:09 COT 2021
+0;David Suarez Vanegas;Sun Jul 18 02:37:09 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 02:37:09 COT 2021
+0;Cristhian Muñoz Aulestia;Sun Jul 18 02:40:42 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 02:40:42 COT 2021
+0;David Suarez Vanegas;Sun Jul 18 02:40:42 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 02:40:42 COT 2021
+0;Andrea Cachipuendo Catucuamba;Sun Jul 18 02:40:42 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 02:40:42 COT 2021
+0;Cristhian Muñoz;Sun Jul 18 02:40:42 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 02:40:42 COT 2021
+0;Cristhian Muñoz Aulestia;Sun Jul 18 02:41:33 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 02:41:33 COT 2021
+0;David Suarez Vanegas;Sun Jul 18 02:41:33 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 02:41:33 COT 2021
+0;Andrea Cachipuendo Catucuamba;Sun Jul 18 02:41:33 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 02:41:33 COT 2021
+0;Cristhian Muñoz;Sun Jul 18 02:41:33 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 02:41:33 COT 2021
+0;Cristhian Muñoz Aulestia;Sun Jul 18 02:42:12 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 02:42:12 COT 2021
+0;David Suarez Vanegas;Sun Jul 18 02:42:12 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 02:42:12 COT 2021
+0;Andrea Cachipuendo Catucuamba;Sun Jul 18 02:42:12 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 02:42:12 COT 2021
+0;Cristhian Muñoz;Sun Jul 18 02:42:12 COT 2021;Inglès;Academico 1;280.0;Sun Jul 18 02:42:12 COT 2021

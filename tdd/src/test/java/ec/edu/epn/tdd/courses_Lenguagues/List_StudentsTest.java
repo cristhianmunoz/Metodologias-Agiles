@@ -1,15 +1,26 @@
 package ec.edu.epn.tdd.courses_Lenguagues;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 
 import static org.junit.Assert.*;
 
 public class List_StudentsTest {
+    List_Students lista= null;
+    Student result=null;
+    Student expected=null;
+
+    @BeforeClass
+    public void setUpClass(){
+        lista= new List_Students();
+        expected= new Student ("Cristhian", "Muñoz", 1707996318);
+    }
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
+        lista.add_Student(expected,"1_List_Students.txt");
     }
 
     @After
@@ -17,21 +28,27 @@ public class List_StudentsTest {
     }
 
     @Test
-    public void given_Student_when_unsubscribe_then_okay() {
-        List_Students lista= new List_Students();
-        Student expect= new Student ("Cristhian", "Muñoz", 1707996318);
-        Student result= lista.unsubscribe_Student("1707996318","1_List_Students.txt");
-        System.out.println(result.toString());
-
-        //assertEquals(expect.getNombre(),result.getNombre());
+    public void given_IDStudent_when_unsubscribe_then_okay() {
+        result= lista.unsubscribe_Student("1707996318","1_List_Students.txt");
+        assertEquals(expected.getId(), result.getId());
 
     }
 
-    @Test
-    public void darDeBaja() {
+    @Test (expected = NullPointerException.class  )
+    public void given_IDStudent_when_unsubscribe_then_exception() {
+        result= lista.unsubscribe_Student("1707996318","1_List_Students.txt");
+        assertEquals(expected.getId(), result.getId());
     }
 
-    @Test
-    public void getEstudiantesMatriculados() {
+    @Test (timeout = 110)
+    public void given_IDStudent_when_unsubscribe_then_timeout() {
+        result= lista.unsubscribe_Student("1707996318","1_List_Students.txt");
+        assertEquals(expected.getId(), result.getId());
+    }
+
+    @Test (timeout= 100)
+    public void given_Student_when_add_then_tiemout() {
+        lista.add_Student(expected,"1_List_Students.txt");
+
     }
 }

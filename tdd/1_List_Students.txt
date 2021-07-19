@@ -1,6 +1,25 @@
 12;Cristhian;Muñoz Aulestia;
-13;David;Suarez Vanegas;
-14;Andrea;Cachipuendo Catucuamba;12;Cristhian;Muñoz Aulestia;
+12;Cristhian;Muñoz Aulestia;
 13;David;Suarez Vanegas;
 14;Andrea;Cachipuendo Catucuamba;
-1707996318;Cristhian;Muñoz;
+12;Cristhian;Muñoz Aulestia;
+13;David;Suarez Vanegas;
+14;Andrea;Cachipuendo Catucuamba;
+12;Cristhian;Muñoz Aulestia;
+13;David;Suarez Vanegas;
+14;Andrea;Cachipuendo Catucuamba;
+12;Cristhian;Muñoz Aulestia;
+12;Cristhian;Muñoz Aulestia;
+13;David;Suarez Vanegas;
+14;Andrea;Cachipuendo Catucuamba;
+12;Cristhian;Muñoz Aulestia;
+13;David;Suarez Vanegas;
+12;Cristhian;Muñoz Aulestia;
+13;David;Suarez Vanegas;
+14;Andrea;Cachipuendo Catucuamba;
+12;Cristhian;Muñoz Aulestia;1729425901;David;Aulestia;
+
+1729425901;David;Aulestia;
+1731425901;Pedro;Osborn;
+1756425901;Ezequiel;Azcazubi;
+1757425908;Nehemias;Pachay;

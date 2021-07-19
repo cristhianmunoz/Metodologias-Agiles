@@ -99,7 +99,7 @@ public class Course {
         }
     }
 
-    private String getNameFile(){
+    public String getNameFile(){
         return getId()+"_"+"List_Students.txt";
     }
 
