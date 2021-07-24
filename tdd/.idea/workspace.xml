@@ -62,13 +62,24 @@
   <component name="RunManager" selected="JUnit.List_TeachersParametersTest.agregarProfesor">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="tdd" />
+      <module name="Proyecto_CursoIdiomas_Maven" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="I_List_StudentsTest.give_Course_when_finishPeriod_then_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd" />
+      <module name="Proyecto_CursoIdiomas_Maven" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ec.edu.epn.tdd.courses_Lenguagues.*" />
@@ -84,7 +95,7 @@
       </method>
     </configuration>
     <configuration name="List_StudentsParametersTest.given_parameters_when_add_then_error" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd" />
+      <module name="Proyecto_CursoIdiomas_Maven" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ec.edu.epn.tdd.courses_Lenguagues.*" />
@@ -100,7 +111,7 @@
       </method>
     </configuration>
     <configuration name="List_StudentsParametersTest.given_parameters_when_add_then_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd" />
+      <module name="Proyecto_CursoIdiomas_Maven" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ec.edu.epn.tdd.courses_Lenguagues.*" />
@@ -116,7 +127,7 @@
       </method>
     </configuration>
     <configuration name="List_StudentsTest.given_Student_when_add_then_tiemout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd" />
+      <module name="Proyecto_CursoIdiomas_Maven" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ec.edu.epn.tdd.courses_Lenguagues.*" />
@@ -132,7 +143,7 @@
       </method>
     </configuration>
     <configuration name="List_TeachersParametersTest.agregarProfesor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd" />
+      <module name="Proyecto_CursoIdiomas_Maven" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ec.edu.epn.tdd.courses_Lenguagues.*" />
@@ -169,6 +180,7 @@
       <workItem from="1626574742415" duration="2465000" />
       <workItem from="1626577270279" duration="19135000" />
       <workItem from="1626621703076" duration="5678000" />
+      <workItem from="1627168400218" duration="284000" />
     </task>
     <task id="LOCAL-00001" summary="Commit de prueba 2">
       <created>1627167882501</created>
