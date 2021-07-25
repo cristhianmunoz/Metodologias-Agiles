@@ -71,6 +71,7 @@ public class List_Students {
                         while ((line = br.readLine()) != null) {
                             if (line.contains(id)) {
                                 String[] elements = line.toString().split(";");
+                                int valor=Integer.parseInt(elements[5]);
                                 student = new Student(elements[1], elements[2], Integer.parseInt(elements[0]));
                                 sCadena += line.replaceAll(line, "");
                             } else sCadena += line + "\n";

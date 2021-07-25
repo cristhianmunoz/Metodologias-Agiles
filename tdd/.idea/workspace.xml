@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73b24ab8-f7d9-4c3f-9854-14b1d0247e16" name="Default Changelist" comment="Commit de prueba 2" />
+    <list default="true" id="73b24ab8-f7d9-4c3f-9854-14b1d0247e16" name="Default Changelist" comment="Commit de prueba 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_List_Students.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1_List_Students.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datos_Comprobante.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Datos_Comprobante.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InactiveTeachers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/InactiveTeachers.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/List_Teachers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/List_Teachers.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/List_Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/List_Students.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +66,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.List_TeachersParametersTest.agregarProfesor">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Proyecto_CursoIdiomas_Maven" />
@@ -180,7 +187,7 @@
       <workItem from="1626574742415" duration="2465000" />
       <workItem from="1626577270279" duration="19135000" />
       <workItem from="1626621703076" duration="5678000" />
-      <workItem from="1627168400218" duration="284000" />
+      <workItem from="1627168400218" duration="2209000" />
     </task>
     <task id="LOCAL-00001" summary="Commit de prueba 2">
       <created>1627167882501</created>
