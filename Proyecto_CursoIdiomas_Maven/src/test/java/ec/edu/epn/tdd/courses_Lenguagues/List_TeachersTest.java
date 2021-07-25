@@ -1,9 +1,11 @@
 package ec.edu.epn.tdd.courses_Lenguagues;
 
-import org.junit.BeforeClass;
+import ec.edu.epn.tdd.courses_Languagues.Course;
+import ec.edu.epn.tdd.courses_Languagues.List_Teachers;
+import ec.edu.epn.tdd.courses_Languagues.Secretary;
+import ec.edu.epn.tdd.courses_Languagues.Teacher;
+import org.junit.Before;
 import org.junit.Test;
-
-import java.rmi.AccessException;
 
 import static org.junit.Assert.*;
 
@@ -12,28 +14,32 @@ public class List_TeachersTest {
     public Teacher t,t1;
     public Secretary s;
     public Course c[];
+    boolean expected;
 
-    @BeforeClass
-    public void beforeClass() {
+    @Before
+    public void setUp() {
         t = new Teacher("Sofia","Alvarez Torres",104);
         t1 = new Teacher("Axel","Lopez Torres",105);
         lt = new List_Teachers();
          s = new Secretary("Maria","Dolores",123);
         c = new Course[1];
         c[0] = new Course("1", "Inglès","Academico 1","4pm-6pm");
+        System.out.println("prueba");
+        this.expected = false;
     }
 
     @Test
     public void given_teacher_when_checkRegisterTeacher_then_true() {
-        boolean expected = true;
+        //boolean expected = true;
         boolean actual = lt.checkRegisterTeacher(new Teacher("Andrea","Cachipuendo Catucuamba", 103));
         assertEquals(expected,actual);
     }
 
     @Test
     public void given_teacher_when_checkRegisterTeacher_then_false() {
-        boolean expected = true;
+
         boolean actual = lt.checkRegisterTeacher(new Teacher("Rosa","Perugachi Amaguaña", 103));
+
         assertEquals(expected,actual);
     }
     @Test
@@ -46,7 +52,7 @@ public class List_TeachersTest {
 
 
         s.asignarProfesorACurso(t1,c[0]);
-        boolean expected = true;
+
         boolean actual = lt.darDeBaja(t,c);
         assertEquals(expected,actual);
     }
@@ -55,7 +61,7 @@ public class List_TeachersTest {
         lt.agregarProfesor(t);
         s.asignarProfesorACurso(t,c[0]);
 
-        boolean expected = true;
+        this.expected = false;
         boolean actual = lt.darDeBaja(t,c);
         assertEquals(expected,actual);
     }

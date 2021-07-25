@@ -1,7 +1,8 @@
 package ec.edu.epn.tdd.courses_Lenguagues;
 
+import ec.edu.epn.tdd.courses_Languagues.List_Students;
+import ec.edu.epn.tdd.courses_Languagues.Student;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;

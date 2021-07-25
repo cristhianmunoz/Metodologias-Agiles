@@ -7,10 +7,47 @@
     <list default="true" id="73b24ab8-f7d9-4c3f-9854-14b1d0247e16" name="Default Changelist" comment="Commit de prueba 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1_List_Students.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1_List_Students.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datos_Comprobante.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Datos_Comprobante.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_List_Students.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2_List_Students.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/InactiveTeachers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/InactiveTeachers.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/List_Teachers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/List_Teachers.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/List_Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/List_Students.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/BudgetBusines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Languagues/BudgetBusines.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Languagues/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/Enrollment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Languagues/Enrollment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/I_ListTeacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Languagues/I_ListTeacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/I_List_Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Languagues/I_List_Students.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/List_Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Languagues/List_Students.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/List_Teachers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Languagues/List_Teachers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Languagues/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Languagues/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/Secretary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Languagues/Secretary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Languagues/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Languagues/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/voucher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Languagues/voucher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/tdd/courses_Lenguagues/I_ListTeacherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/tdd/courses_Lenguagues/I_ListTeacherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/tdd/courses_Lenguagues/I_List_StudentsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/tdd/courses_Lenguagues/I_List_StudentsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/tdd/courses_Lenguagues/List_StudentsParametersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/tdd/courses_Lenguagues/List_StudentsParametersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/tdd/courses_Lenguagues/List_StudentsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/tdd/courses_Lenguagues/List_StudentsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/tdd/courses_Lenguagues/List_TeachersParametersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/tdd/courses_Lenguagues/List_TeachersParametersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/tdd/courses_Lenguagues/List_TeachersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/tdd/courses_Lenguagues/List_TeachersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Lenguagues/BudgetBusines.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Lenguagues/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Lenguagues/Enrollment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Lenguagues/I_ListTeacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Lenguagues/I_List_Students.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Lenguagues/List_Students.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Lenguagues/List_Teachers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Lenguagues/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Lenguagues/Secretary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Lenguagues/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Lenguagues/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Lenguagues/voucher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/tdd/courses_Lenguagues/I_ListTeacherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/tdd/courses_Lenguagues/I_ListTeacherTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/tdd/courses_Lenguagues/I_List_StudentsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/tdd/courses_Lenguagues/I_List_StudentsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/tdd/courses_Lenguagues/List_StudentsParametersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/tdd/courses_Lenguagues/List_StudentsParametersTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/tdd/courses_Lenguagues/List_StudentsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/tdd/courses_Lenguagues/List_StudentsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/tdd/courses_Lenguagues/List_TeachersParametersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/tdd/courses_Lenguagues/List_TeachersParametersTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/tdd/courses_Lenguagues/List_TeachersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/tdd/courses_Lenguagues/List_TeachersTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +79,13 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -59,6 +97,9 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ec.edu.epn.tdd.courses_Lenguagues" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ec.edu.epn.tdd.courses_Lenguagues" />
     </key>
@@ -66,7 +107,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.List_StudentsParametersTest">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ec.edu.epn.tdd.courses_Lenguagues.Main" />
       <module name="Proyecto_CursoIdiomas_Maven" />
@@ -87,23 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="I_List_StudentsTest.give_Course_when_finishPeriod_then_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Proyecto_CursoIdiomas_Maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ec.edu.epn.tdd.courses_Lenguagues.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ec.edu.epn.tdd.courses_Lenguagues" />
-      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.tdd.courses_Lenguagues.I_List_StudentsTest" />
-      <option name="METHOD_NAME" value="give_Course_when_finishPeriod_then_ok" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="List_StudentsParametersTest.given_parameters_when_add_then_error" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="List_StudentsParametersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Proyecto_CursoIdiomas_Maven" />
       <extension name="coverage">
         <pattern>
@@ -113,29 +138,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="ec.edu.epn.tdd.courses_Lenguagues" />
       <option name="MAIN_CLASS_NAME" value="ec.edu.epn.tdd.courses_Lenguagues.List_StudentsParametersTest" />
-      <option name="METHOD_NAME" value="given_parameters_when_add_then_error" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="List_StudentsParametersTest.given_parameters_when_add_then_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Proyecto_CursoIdiomas_Maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ec.edu.epn.tdd.courses_Lenguagues.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ec.edu.epn.tdd.courses_Lenguagues" />
-      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.tdd.courses_Lenguagues.List_StudentsParametersTest" />
-      <option name="METHOD_NAME" value="given_parameters_when_add_then_ok" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="List_StudentsTest.given_Student_when_add_then_tiemout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="List_StudentsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Proyecto_CursoIdiomas_Maven" />
       <extension name="coverage">
         <pattern>
@@ -145,13 +153,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="ec.edu.epn.tdd.courses_Lenguagues" />
       <option name="MAIN_CLASS_NAME" value="ec.edu.epn.tdd.courses_Lenguagues.List_StudentsTest" />
-      <option name="METHOD_NAME" value="given_Student_when_add_then_tiemout" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="List_TeachersParametersTest.agregarProfesor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="List_StudentsTest.given_IDStudent_when_unsubscribe_then_exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Proyecto_CursoIdiomas_Maven" />
       <extension name="coverage">
         <pattern>
@@ -160,20 +167,51 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ec.edu.epn.tdd.courses_Lenguagues" />
-      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.tdd.courses_Lenguagues.List_TeachersParametersTest" />
-      <option name="METHOD_NAME" value="agregarProfesor" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.tdd.courses_Lenguagues.List_StudentsTest" />
+      <option name="METHOD_NAME" value="given_IDStudent_when_unsubscribe_then_exception" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="List_StudentsTest.given_IDStudent_when_unsubscribe_then_timeout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Proyecto_CursoIdiomas_Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.tdd.courses_Lenguagues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.tdd.courses_Lenguagues" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.tdd.courses_Lenguagues.List_StudentsTest" />
+      <option name="METHOD_NAME" value="given_IDStudent_when_unsubscribe_then_timeout" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="List_TeachersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Proyecto_CursoIdiomas_Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.tdd.courses_Lenguagues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.tdd.courses_Lenguagues" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.tdd.courses_Lenguagues.List_TeachersTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.List_TeachersParametersTest.agregarProfesor" />
-        <item itemvalue="JUnit.List_StudentsParametersTest.given_parameters_when_add_then_error" />
-        <item itemvalue="JUnit.I_List_StudentsTest.give_Course_when_finishPeriod_then_ok" />
-        <item itemvalue="JUnit.List_StudentsParametersTest.given_parameters_when_add_then_ok" />
-        <item itemvalue="JUnit.List_StudentsTest.given_Student_when_add_then_tiemout" />
+        <item itemvalue="JUnit.List_StudentsParametersTest" />
+        <item itemvalue="JUnit.List_StudentsTest" />
+        <item itemvalue="JUnit.List_TeachersTest" />
+        <item itemvalue="JUnit.List_StudentsTest.given_IDStudent_when_unsubscribe_then_exception" />
+        <item itemvalue="JUnit.List_StudentsTest.given_IDStudent_when_unsubscribe_then_timeout" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +228,11 @@
       <workItem from="1626577270279" duration="19135000" />
       <workItem from="1626621703076" duration="5678000" />
       <workItem from="1627168400218" duration="2209000" />
+      <workItem from="1627171915495" duration="885000" />
+      <workItem from="1627188089217" duration="1030000" />
+      <workItem from="1627189190380" duration="136000" />
+      <workItem from="1627189597239" duration="5116000" />
+      <workItem from="1627194845911" duration="356000" />
     </task>
     <task id="LOCAL-00001" summary="Commit de prueba 2">
       <created>1627167882501</created>
@@ -220,6 +263,16 @@
     <MESSAGE value="Commit de prueba" />
     <MESSAGE value="Commit de prueba 2" />
     <option name="LAST_COMMIT_MESSAGE" value="Commit de prueba 2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/tdd$List_StudentsTest_given_Student_when_unsubscribe_then_okay.ic" NAME="List_StudentsTest.given_Student_when_unsubscribe_then_okay Coverage Results" MODIFIED="1626585828514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

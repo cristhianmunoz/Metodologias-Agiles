@@ -1,5 +1,7 @@
 package ec.edu.epn.tdd.courses_Lenguagues;
 
+import ec.edu.epn.tdd.courses_Languagues.Course;
+import ec.edu.epn.tdd.courses_Languagues.I_List_Students;
 import org.junit.Test;
 import org.mockito.Mockito;
 

@@ -1,9 +1,8 @@
 package ec.edu.epn.tdd.courses_Lenguagues;
 
+import ec.edu.epn.tdd.courses_Languagues.List_Students;
+import ec.edu.epn.tdd.courses_Languagues.Student;
 import org.junit.*;
-
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 
 import static org.junit.Assert.*;
 
@@ -13,13 +12,13 @@ public class List_StudentsTest {
     Student expected=null;
 
     @BeforeClass
-    public void setUpClass(){
-        lista= new List_Students();
-        expected= new Student ("Cristhian", "Muñoz", 1707996318);
+    public static void setUpClass(){
     }
 
     @Before
     public void setUp() {
+        lista= new List_Students();
+        expected= new Student ("Cristhian", "Muñoz", 1707996318);
         lista.add_Student(expected,"1_List_Students.txt");
     }
 
@@ -34,16 +33,17 @@ public class List_StudentsTest {
 
     }
 
-    @Test (expected = NullPointerException.class  )
+    /*@Test (expected = NullPointerException.class  )
     public void given_IDStudent_when_unsubscribe_then_exception() {
         result= lista.unsubscribe_Student("1707996318","1_List_Students.txt");
         assertEquals(expected.getId(), result.getId());
-    }
+    }*/
 
     @Test (timeout = 110)
     public void given_IDStudent_when_unsubscribe_then_timeout() {
         result= lista.unsubscribe_Student("1707996318","1_List_Students.txt");
         assertEquals(expected.getId(), result.getId());
+
     }
 
     @Test (timeout= 100)
