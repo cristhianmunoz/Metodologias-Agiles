@@ -111,13 +111,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.List_StudentsParametersTest">
-    <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.tdd.courses_Lenguagues.Main" />
-      <module name="Proyecto_CursoIdiomas_Maven" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -125,6 +118,13 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.tdd.courses_Lenguagues.Main" />
+      <module name="Proyecto_CursoIdiomas_Maven" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
