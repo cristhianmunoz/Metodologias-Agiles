@@ -18,7 +18,7 @@ public class List_StudentsTest {
     @Before
     public void setUp() {
         lista= new List_Students();
-        expected= new Student ("Cristhian", "Muñoz", 1707996318);
+        expected= new Student ("Cristhian", "Munoz", 1707996318);
         lista.add_Student(expected,"1_List_Students.txt");
     }
 

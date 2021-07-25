@@ -4,50 +4,53 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73b24ab8-f7d9-4c3f-9854-14b1d0247e16" name="Default Changelist" comment="Commit de prueba 2">
+    <list default="true" id="73b24ab8-f7d9-4c3f-9854-14b1d0247e16" name="Default Changelist" comment="Commit .jar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1_List_Students.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1_List_Students.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_List_Students.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2_List_Students.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InactiveTeachers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/InactiveTeachers.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/List_Teachers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/List_Teachers.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/BudgetBusines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Languagues/BudgetBusines.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Languagues/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/Enrollment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Languagues/Enrollment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/I_ListTeacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Languagues/I_ListTeacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/I_List_Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Languagues/I_List_Students.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/List_Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Languagues/List_Students.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/List_Teachers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Languagues/List_Teachers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Languagues/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Languagues/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/Secretary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Languagues/Secretary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Languagues/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Languagues/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Lenguagues/voucher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/tdd/courses_Languagues/voucher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/tdd/courses_Lenguagues/I_ListTeacherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/tdd/courses_Lenguagues/I_ListTeacherTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/tdd/courses_Lenguagues/I_List_StudentsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/tdd/courses_Lenguagues/I_List_StudentsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/tdd/courses_Lenguagues/List_StudentsParametersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/tdd/courses_Lenguagues/List_StudentsParametersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/tdd/courses_Lenguagues/List_StudentsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/tdd/courses_Lenguagues/List_StudentsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/tdd/courses_Lenguagues/List_TeachersParametersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/tdd/courses_Lenguagues/List_TeachersParametersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/tdd/courses_Lenguagues/List_TeachersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/tdd/courses_Lenguagues/List_TeachersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Lenguagues/BudgetBusines.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Lenguagues/Course.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Lenguagues/Enrollment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Lenguagues/I_ListTeacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Lenguagues/I_List_Students.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Lenguagues/List_Students.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Lenguagues/List_Teachers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Lenguagues/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Lenguagues/Secretary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Lenguagues/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Lenguagues/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Lenguagues/voucher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/tdd/courses_Lenguagues/I_ListTeacherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/tdd/courses_Lenguagues/I_ListTeacherTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/tdd/courses_Lenguagues/I_List_StudentsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/tdd/courses_Lenguagues/I_List_StudentsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/tdd/courses_Lenguagues/List_StudentsParametersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/tdd/courses_Lenguagues/List_StudentsParametersTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/tdd/courses_Lenguagues/List_StudentsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/tdd/courses_Lenguagues/List_StudentsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/tdd/courses_Lenguagues/List_TeachersParametersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/tdd/courses_Lenguagues/List_TeachersParametersTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/tdd/courses_Lenguagues/List_TeachersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/tdd/courses_Lenguagues/List_TeachersTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/1_List_Students.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/2_List_Students.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Datos_Comprobante.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/InactiveTeachers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/List_Teachers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Languagues/BudgetBusines.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Languagues/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Languagues/Enrollment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Languagues/I_ListTeacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Languagues/I_List_Students.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Languagues/List_Students.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Languagues/List_Teachers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Languagues/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Languagues/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Languagues/Secretary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Languagues/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Languagues/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/edu/epn/tdd/courses_Languagues/voucher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ec.edu.epn.tdd.courses_Lenguagues.I_ListTeacherTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ec.edu.epn.tdd.courses_Lenguagues.I_List_StudentsTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ec.edu.epn.tdd.courses_Lenguagues.List_StudentsParametersTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ec.edu.epn.tdd.courses_Lenguagues.List_StudentsTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ec.edu.epn.tdd.courses_Lenguagues.List_TeachersParametersTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ec.edu.epn.tdd.courses_Lenguagues.List_TeachersTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ec.edu.epn.tdd.courses_Lenguagues.I_ListTeacherTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ec.edu.epn.tdd.courses_Lenguagues.I_List_StudentsTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ec.edu.epn.tdd.courses_Lenguagues.List_StudentsParametersTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ec.edu.epn.tdd.courses_Lenguagues.List_StudentsTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ec.edu.epn.tdd.courses_Lenguagues.List_TeachersParametersTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ec.edu.epn.tdd.courses_Lenguagues.List_TeachersTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tdd-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/tdd/courses_Lenguagues/I_ListTeacherTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/tdd/courses_Lenguagues/I_List_StudentsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/tdd/courses_Lenguagues/List_StudentsParametersTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/tdd/courses_Lenguagues/List_StudentsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/tdd/courses_Lenguagues/List_TeachersParametersTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ec/edu/epn/tdd/courses_Lenguagues/List_TeachersTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,15 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -232,7 +233,7 @@
       <workItem from="1627188089217" duration="1030000" />
       <workItem from="1627189190380" duration="136000" />
       <workItem from="1627189597239" duration="5116000" />
-      <workItem from="1627194845911" duration="356000" />
+      <workItem from="1627194845911" duration="794000" />
     </task>
     <task id="LOCAL-00001" summary="Commit de prueba 2">
       <created>1627167882501</created>
@@ -241,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627167882501</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit .jar">
+      <created>1627195355962</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627195355962</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,7 +270,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit de prueba" />
     <MESSAGE value="Commit de prueba 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit de prueba 2" />
+    <MESSAGE value="Commit .jar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit .jar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

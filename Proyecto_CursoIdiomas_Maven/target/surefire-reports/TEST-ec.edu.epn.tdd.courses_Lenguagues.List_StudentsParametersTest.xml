@@ -67,10 +67,10 @@
   <testcase classname="ec.edu.epn.tdd.courses_Lenguagues.List_StudentsParametersTest" name="given_parameters_when_add_then_ok[0]" time="0.003"/>
   <testcase classname="ec.edu.epn.tdd.courses_Lenguagues.List_StudentsParametersTest" name="given_parameters_when_add_then_ok[1]" time="0.001"/>
   <testcase classname="ec.edu.epn.tdd.courses_Lenguagues.List_StudentsParametersTest" name="given_parameters_when_add_then_ok[2]" time="0.002"/>
-  <testcase classname="ec.edu.epn.tdd.courses_Lenguagues.List_StudentsParametersTest" name="given_parameters_when_add_then_ok[3]" time="0.002"/>
-  <testcase classname="ec.edu.epn.tdd.courses_Lenguagues.List_StudentsParametersTest" name="given_parameters_when_add_then_ok[4]" time="0.001"/>
-  <testcase classname="ec.edu.epn.tdd.courses_Lenguagues.List_StudentsParametersTest" name="given_parameters_when_add_then_ok[5]" time="0.002"/>
-  <testcase classname="ec.edu.epn.tdd.courses_Lenguagues.List_StudentsParametersTest" name="given_parameters_when_add_then_ok[6]" time="0.002"/>
+  <testcase classname="ec.edu.epn.tdd.courses_Lenguagues.List_StudentsParametersTest" name="given_parameters_when_add_then_ok[3]" time="0.001"/>
+  <testcase classname="ec.edu.epn.tdd.courses_Lenguagues.List_StudentsParametersTest" name="given_parameters_when_add_then_ok[4]" time="0.003"/>
+  <testcase classname="ec.edu.epn.tdd.courses_Lenguagues.List_StudentsParametersTest" name="given_parameters_when_add_then_ok[5]" time="0.003"/>
+  <testcase classname="ec.edu.epn.tdd.courses_Lenguagues.List_StudentsParametersTest" name="given_parameters_when_add_then_ok[6]" time="0.003"/>
   <testcase classname="ec.edu.epn.tdd.courses_Lenguagues.List_StudentsParametersTest" name="given_parameters_when_add_then_ok[7]" time="0.001"/>
-  <testcase classname="ec.edu.epn.tdd.courses_Lenguagues.List_StudentsParametersTest" name="given_parameters_when_add_then_ok[8]" time="0.004"/>
+  <testcase classname="ec.edu.epn.tdd.courses_Lenguagues.List_StudentsParametersTest" name="given_parameters_when_add_then_ok[8]" time="0.001"/>
 </testsuite>

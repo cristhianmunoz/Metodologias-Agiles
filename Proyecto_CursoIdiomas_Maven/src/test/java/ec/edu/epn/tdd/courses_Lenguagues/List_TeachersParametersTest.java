@@ -26,7 +26,7 @@ public class List_TeachersParametersTest {
         List<Object[]> objects = new ArrayList<Object[]>();
         objects.add(new Object[]{new Teacher("Juan","Perez",025), "List_Teachers.txt" });
         objects.add(new Object[]{new Teacher("Marcelo","Murillo",026), "List_Teachers.txt" });
-        objects.add(new Object[]{new Teacher("Beto","Amaguaña",027), "List_Teachers.txt" });
+        objects.add(new Object[]{new Teacher("Beto","Amaguana",027), "List_Teachers.txt" });
         objects.add(new Object[]{new Teacher("Marisol","Colcha",024), "List_Teachers.txt" });
         objects.add(new Object[]{new Teacher("Mary","Ramirez",023), "List_Teachers.txt" });
         objects.add(new Object[]{new Teacher("Lupe","Fernandez",030), "List_Teachers.txt" });
